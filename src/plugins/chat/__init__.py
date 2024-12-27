@@ -4,6 +4,7 @@ from nonebot.plugin import PluginMetadata
 from nonebot.adapters import Message
 from nonebot.params import CommandArg
 from openai import AzureOpenAI
+from openai import OpenAI
 import openai
 import os
 from .sys_msg import system_message
@@ -65,6 +66,27 @@ def get_claude_response(prompt: str):
             model="claude-3-5-haiku-20241022"
         )
         return message.content[0].text
+    except Exception as e:
+        return repr(e)
+
+def get_close_ai_response(prompt: str):
+    try:
+        client = OpenAI(
+            base_url='https://api.openai-proxy.org/v1',
+            api_key=os.getenv("CLAUDE_API_KEY")
+        )
+
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {"role": "system",  "content": system_message},
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+            model="gpt-4o-mini",
+        )
+        return chat_completion.choices[0].message.content
     except Exception as e:
         return repr(e)
 
