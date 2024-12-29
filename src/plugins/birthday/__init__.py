@@ -133,7 +133,7 @@ async def send_birthday_by_name(matcher: Matcher, event: GroupMessageEvent, args
 
 async def daily_birthday_msg():
     bot = nonebot.get_bot()
-    group_list: List[int] = [943858715, 737574359, 496642207]   # TODO: Get all groups and send birthday messages to those in the whitelist.
+    group_list: List[int] = [943858715, 737574359, 496642207, 264271679]   # TODO: Get all groups and send birthday messages to those in the whitelist.
     
     birthday_characters: List[str] = get_birthdays(config.birthday_file_path)
     

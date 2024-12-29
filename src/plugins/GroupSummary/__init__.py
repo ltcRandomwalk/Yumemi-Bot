@@ -140,6 +140,8 @@ async def daily_summary():
             time_start=datetime.now() - timedelta(days=1)
         )
         msgs = [ msg for msg in msgs if not msg.startswith("#") ]
+        if not msgs:
+            continue
         reponse = get_response("这是今天的群聊信息，请对它们进行总结:"+"\n".join(msgs))
         msg = f"昨日群聊内容总结如下(By gpt-4o-mini)：\n {reponse}"
         await bot.call_api("send_group_msg", group_id=group, message=msg)
