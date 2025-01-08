@@ -6,6 +6,7 @@ from nonebot.params import CommandArg
 from typing import List
 import random
 from datetime import datetime
+import hashlib
 
 from .config import PluginConfig
 from nonebot.adapters.onebot.v11 import (
@@ -78,7 +79,7 @@ async def _(event: GroupMessageEvent):
             game_name = character_data[heroine]["game_name"]
             img_list = get_image_list(config.image_base_folder, heroine)
             today = datetime.now().strftime("%Y-%m-%d")
-            random.seed(f"{user_id}_{today}")
+            random.seed( int(hashlib.md5(f"{user_id}_{today}".encode()).hexdigest(),16)%(2**32))
             image_path = random.choice(img_list)
             #print(image_path)
             if not os.path.isfile(image_path):

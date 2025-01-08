@@ -13,6 +13,20 @@
             "presenter": null,
             "others": null
         }
+        ,
+        {
+            "cha_name": "麻枝准",
+            "game_name": "Key",
+            "img_path": ["麻枝准.png"],
+            "cv": "麻枝准",
+            "staff": "麻枝准",
+            "tag": null,
+            "company_name": "Key",
+            "like": null,
+            "age": "50",
+            "presenter": null,
+            "others": null
+        }
     ],
     "1-5": [
         {
@@ -2383,19 +2397,6 @@
             "img_path": ["牡丹.png"],
             "cv": null,
             "staff": null,
-            "tag": null,
-            "company_name": "Key",
-            "like": null,
-            "age": null,
-            "presenter": null,
-            "others": null
-        },
-        {
-            "cha_name": "麻枝准",
-            "game_name": "Key",
-            "img_path": ["麻枝准.png"],
-            "cv": "麻枝准",
-            "staff": "麻枝准",
             "tag": null,
             "company_name": "Key",
             "like": null,

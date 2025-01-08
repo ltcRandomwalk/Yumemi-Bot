@@ -21,6 +21,19 @@ config = get_plugin_config(PluginConfig)
 
 notice_handle = on_notice(priority=5, block=True)
 
+def parseMessage(data):
+    if data["type"] == "text":
+        return [ MessageSegment.text("\n".join(data["content"])) ]
+    elif data["type"] == "image":
+        return [  MessageSegment.image(data["content"]) ]
+    elif data["type"] == "node":
+        msgs = []
+        for msg in data["content"]:
+            msgs += parseMessage(msg)
+        return msgs
+    else:
+        return [ MessageSegment.text("欢迎新人！") ]
+
 
 @notice_handle.handle()
 async def GroupNewMember(bot: Bot, event: GroupIncreaseNoticeEvent):
@@ -31,7 +44,13 @@ async def GroupNewMember(bot: Bot, event: GroupIncreaseNoticeEvent):
             data = json.load(f)
         if str(event.group_id) not in data:
             #await bot.send_group_msg(group_id=event.group_id, message=MessageSegment.text(f"未发现相关群聊。{data} {event.group_id}"))
+            await bot.send_group_msg(group_id=event.group_id, message=Message(
+                MessageSegment.at(event.user_id) + MessageSegment.text(f" 欢迎新人！")))
             return
-        text = "\n".join(data[str(event.group_id)]["text"])
+        # text = "\n".join(data[str(event.group_id)]["text"])
+        msgs = parseMessage(data[str(event.group_id)])
+        
         await bot.send_group_msg(group_id=event.group_id, message=Message(
-            MessageSegment.at(event.user_id) + MessageSegment.text(f"\n{text}")))
+            MessageSegment.at(event.user_id) + " " + msgs[0]))
+        for msg in msgs[1:]:
+            await bot.send_group_msg(group_id=event.group_id, message=msg)
