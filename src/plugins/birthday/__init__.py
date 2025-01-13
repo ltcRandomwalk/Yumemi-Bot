@@ -160,4 +160,4 @@ async def daily_birthday_msg():
             await bot.call_api("send_group_msg", group_id=group_id, message=msg)
     
 
-scheduler.add_job(daily_birthday_msg, "cron", hour=0, minute=0, second=0, id='daily_birthday', timezone=pytz.timezone("Asia/Shanghai"))
+scheduler.add_job(daily_birthday_msg, "cron", hour=0, minute=0, second=0, id='daily_birthday', timezone=pytz.timezone("Asia/Tokyo"))

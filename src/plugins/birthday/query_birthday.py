@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 from typing import Tuple, List
+import pytz
 def get_birthdays(file_path: str, month: int=0, day: int=0) -> List[str]:
     """
     获取指定日期生日的人的名字
@@ -13,7 +14,7 @@ def get_birthdays(file_path: str, month: int=0, day: int=0) -> List[str]:
     if 1 <= month <= 12 and 1 <= day <= 31:
         date = datetime(2024, month, day)
     else:
-        date = datetime.now()
+        date = datetime.now().astimezone(pytz.timezone("Asia/Tokyo"))
     today = date.strftime("%-m-%-d")
     
     try:
