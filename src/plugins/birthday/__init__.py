@@ -143,7 +143,7 @@ async def daily_birthday_msg():
         #msg_list.append(MessageSegment.text("今天没有人过生日哦！（该提醒仅为测试期间使用，测试完成后会删掉）\n"))
         return
     else:
-        msg_list.insert(0, MessageSegment.text("今天过生日的Key社角色如下，让我们祝他们生日快乐吧!\n"))
+        msg_list.insert(0, MessageSegment.text("今天（东京时间）过生日的Key社角色如下，让我们祝他们生日快乐吧!\n"))
     
     for group_id in group_list:
         birth_node =[]
