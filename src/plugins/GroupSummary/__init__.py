@@ -39,7 +39,7 @@ config = get_plugin_config(Config)
 
 chat_event = nonebot.on_command("总结", priority=10, block=True)
 system_message = '''
-    你是一个消息总结助理。我会发给你一个群聊一天之内的聊天内容，你对聊天记录进行总结。请用“群友”来指代“群内成员”。你的总结应该是一段完整通顺的话，而不是分条列点。如果聊天记录较多，你可以选择一两个有趣话题进行详细总结，但仍应尽量保证总结能涵盖到尽量多的内容。你的总结应该符合聊天记录本身，不要添加聊天记录没有提到的内容。你应该使你的总结显得有趣一些。在你的回复中，只需要回复总结的内容，不要添加其他提示词。
+    你是一个消息总结助理。我会发给你一个qq群聊一天之内的聊天内容，你对聊天记录进行总结。请用“群友”来指代“群内成员”。你的总结应该是一段完整通顺的话，而不是分条列点。如果聊天记录较多，你可以选择一两个有趣话题进行详细总结，但仍应尽量保证总结能涵盖到尽量多的内容。你的总结应该符合聊天记录本身，不要添加聊天记录没有提到的内容。你应该使你的总结显得有趣一些。在你的回复中，只需要回复总结的内容，不要添加其他提示词。
 '''
 
 @chat_event.handle()
@@ -92,7 +92,7 @@ def get_close_ai_response(prompt: str):
                     "content": prompt,
                 }
             ],
-            model="gpt-4o-mini",
+            model="deepseek-chat",
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
@@ -143,7 +143,7 @@ async def daily_summary():
         if not msgs:
             continue
         reponse = get_response("这是今天的群聊信息，请对它们进行总结:"+"\n".join(msgs))
-        msg = f"昨日群聊内容总结如下(By gpt-4o-mini)：\n {reponse}"
+        msg = f"今日群聊内容总结如下(By deepseek-chat)：\n {reponse}"
         await bot.call_api("send_group_msg", group_id=group, message=msg)
 
 scheduler.add_job(daily_summary, "cron", hour=23, minute=55, second=0, id='daily_summary', timezone=pytz.timezone("Asia/Shanghai"))

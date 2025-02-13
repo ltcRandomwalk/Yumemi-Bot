@@ -49,10 +49,10 @@ def get_lucky_discription(lucky_point):
 
 def get_image_list(image_base_folder: str, cha_name: str) -> List[str]:
     matching_files = []
+    image_base_folder = os.path.join(image_base_folder, cha_name)
     for root, dirs, files in os.walk(image_base_folder):
         for file in files:
-            if cha_name in file:
-                matching_files.append(os.path.join(root, file))
+            matching_files.append(os.path.join(root, file))
     
     return matching_files
 

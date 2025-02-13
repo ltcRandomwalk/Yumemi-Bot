@@ -39,12 +39,23 @@ __plugin_meta__ = PluginMetadata(
 config = get_plugin_config(PluginConfig)
 
 
+def get_image_list(image_base_folder:str, cha_name:str) -> List[str]:
+    matching_files = []
+    image_base_folder = "/home/ubuntu/Yumemi-Bot/resource/images"
+    image_base_folder = os.path.join(image_base_folder, cha_name)
+    for root, dirs, files in os.walk(image_base_folder):
+        for file in files:
+            matching_files.append(os.path.join(root, file))
+    
+    return matching_files
+
 def get_birthday_msg(character_str: str) -> MessageSegment:
     msg = MessageSegment.text(f"{character_str}\n")
     character = Character(character_str)
     if character.init(config.character_json_path, config.image_base_folder):
-        if len(character.img_path) != 0:
-            msg += MessageSegment.image(character.img_path[0])
+        image_list = get_image_list("/home/ubuntu/Yumemi-Bot/resource/images", character_str)
+        if len(image_list) != 0:
+            msg += MessageSegment.image(image_list[0])
         if character.game_name:
             msg += MessageSegment.text(f"作品名：{character.game_name}\n")
         if character.tag:
@@ -133,7 +144,7 @@ async def send_birthday_by_name(matcher: Matcher, event: GroupMessageEvent, args
 
 async def daily_birthday_msg():
     bot = nonebot.get_bot()
-    group_list: List[int] = [943858715, 737574359, 496642207, 264271679]   # TODO: Get all groups and send birthday messages to those in the whitelist.
+    group_list: List[int] = [943858715, 737574359, 496642207, 264271679, 1026440181, 961707929, 608533421]   # TODO: Get all groups and send birthday messages to those in the whitelist.
     
     birthday_characters: List[str] = get_birthdays(config.birthday_file_path)
     

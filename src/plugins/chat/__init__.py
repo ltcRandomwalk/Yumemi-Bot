@@ -35,7 +35,7 @@ async def chat_handler(event: GroupMessageEvent, args: Message=CommandArg()):
     if content := args.extract_plain_text():
         await chat_event.send("梦美正在思考中……")
         response = get_response(content)
-        msgs = [ MessageSegment.at(event.user_id), "\n" + response ]
+        msgs = [ MessageSegment.at(event.user_id), response ]
         node_msg = []
         for msg in msgs:
             node_msg.append(
@@ -84,7 +84,7 @@ def get_close_ai_response(prompt: str):
                     "content": prompt,
                 }
             ],
-            model="gpt-4o-mini",
+            model="deepseek-reasoner",
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
@@ -118,4 +118,4 @@ def get_azure_response(prompt: str):
         return repr(e)
 
 def get_response(prompt: str):
-    return get_claude_response(prompt)
+    return get_close_ai_response(prompt)
