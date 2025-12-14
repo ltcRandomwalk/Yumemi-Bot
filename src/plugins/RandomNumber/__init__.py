@@ -18,7 +18,7 @@ from nonebot.adapters.onebot.v11 import (
     GroupMessageEvent,
     GROUP,
     Message,
-    MessageSegment
+    MessageSegment,
 )
 
 __plugin_usage__ = f"""
@@ -36,32 +36,47 @@ __plugin_meta__ = PluginMetadata(
 
 config = get_plugin_config(PluginConfig)
 
-random_event = nonebot.on_command("r", aliases={"roll", "随机数"}, priority=10, block=True)
+random_event = nonebot.on_command(
+    "r", aliases={"roll", "随机数"}, priority=10, block=True
+)
+
 
 @random_event.handle()
-async def random_event_handler(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg()):
+async def random_event_handler(
+    matcher: Matcher, event: GroupMessageEvent, args: Message = CommandArg()
+):
+    def _isinteger(s: str) -> bool:
+        if s.startswith("-"):
+            return s[1:].isdigit()
+        return s.isdigit()
+
     user_id = str(event.get_user_id())
     args: str = args.extract_plain_text()
     if not args:
         month, day = datetime.today().month, datetime.today().day
     else:
         args: List[str] = args.split()
-        
+
         if len(args) > 2:
-            await random_event.finish(MessageSegment.at(user_id)+f"使用方法：\n{__plugin_usage__}")
-            
-        elif len(args) == 1:    # Query birthday by character name.
-            if not args[0].isdigit():
-                await random_event.finish(MessageSegment.at(user_id)+f"使用方法：\n{__plugin_usage__}")
+            await random_event.finish(
+                MessageSegment.at(user_id) + f"使用方法：\n{__plugin_usage__}"
+            )
+
+        elif len(args) == 1:  # Query birthday by character name.
+            if not _isinteger(args[0]):
+                await random_event.finish(
+                    MessageSegment.at(user_id) + f"使用方法：\n{__plugin_usage__}"
+                )
             b = int(args[0])
             a = 1
         else:
-            if not (args[0].isdigit() and args[1].isdigit()):
-                await random_event.finish(MessageSegment.at(user_id)+f"使用方法：\n{__plugin_usage__}")
+            if not (_isinteger(args[0]) and _isinteger(args[1])):
+                await random_event.finish(
+                    MessageSegment.at(user_id) + f"使用方法：\n{__plugin_usage__}"
+                )
             a, b = int(args[0]), int(args[1])
-        
+
     c = random.randint(a, b)
-    await random_event.finish(MessageSegment.at(user_id) + "\n" + f"{a}-{b}间的随机数为：{c}")
-    
-    
-    
+    await random_event.finish(
+        MessageSegment.at(user_id) + "\n" + f"{a}-{b}间的随机数为：{c}"
+    )
