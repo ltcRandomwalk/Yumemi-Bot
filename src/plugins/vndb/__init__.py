@@ -21,7 +21,8 @@ from nonebot.adapters.onebot.v11 import (
     GroupMessageEvent,
     GROUP,
     Message,
-    MessageSegment
+    MessageSegment,
+    Bot
 )
 
 
@@ -73,7 +74,7 @@ def get_vndb(cid: str):
 query_by_name = nonebot.on_command("查询", aliases={"角色"}, priority=10, block=True)
 
 @query_by_name.handle()
-async def _(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg()):
+async def _(bot: Bot, matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg()):
     user_id = str(event.get_user_id())
     args: str = args.extract_plain_text()
     if not args:
@@ -93,7 +94,8 @@ async def _(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg
             msg += "\n"
             
             if data["image"] and data["image"]["url"]:
-                msg += MessageSegment.image(data["image"]["url"])
+                #msg += MessageSegment.image(data["image"]["url"])
+                pass
             if data["birthday"]:
                 msg += f"生日：{data['birthday'][0]}-{data['birthday'][1]}\n"
                 #msg += f"生日：{data['birthday']}\n"
@@ -119,12 +121,13 @@ async def _(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg
             if data["cup"]:
                 msg += f"罩杯：{data['cup']}" 
             msg += "\n以上数据来源于vndb"
-            await query_by_name.finish(msg)
+            await query_by_name.send(msg)
         except FinishedException as f:
             return
         except Exception as e:
             #error_info = traceback.format_exc()
             error_info = ""
-            await query_by_name.finish(f"{repr(e)}\n{error_info}")
+            await query_by_name.send(f"查询失败：前方拥堵，请稍后再试")
+            #await bot.send_msg(group_id=943858715, message=repr(e)+str(data))
     
    

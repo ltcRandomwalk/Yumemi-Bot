@@ -2,7 +2,7 @@ import nonebot
 from nonebot import get_plugin_config
 from nonebot.plugin import PluginMetadata
 from nonebot.adapters import Message
-from nonebot.params import CommandArg
+from nonebot.params import CommandArg, EventPlainText
 from openai import AzureOpenAI
 from openai import OpenAI
 import openai
@@ -28,12 +28,13 @@ __plugin_meta__ = PluginMetadata(
 config = get_plugin_config(Config)
 
 
-chat_event = nonebot.on_command("chat", priority=10, block=True)
+chat_event = nonebot.on_message(rule=nonebot.rule.to_me(), priority=10, block=True)
 
 @chat_event.handle()
-async def chat_handler(event: GroupMessageEvent, args: Message=CommandArg()):
-    if content := args.extract_plain_text():
-        await chat_event.send("梦美正在思考中……")
+async def chat_handler(event: GroupMessageEvent, content=EventPlainText()):
+    #return
+    if content:
+        #await chat_event.send("梦美正在思考中……")
         response = get_response(content)
         msgs = [ MessageSegment.at(event.user_id), response ]
         node_msg = []
@@ -45,7 +46,10 @@ async def chat_handler(event: GroupMessageEvent, args: Message=CommandArg()):
                     content=msg,
                 )
             )
-        await chat_event.finish(node_msg)
+        #if len(response) > 300:
+            #await chat_event.finish(node_msg)
+        
+        await chat_event.finish(MessageSegment.at(event.user_id) + response.strip())
     else:
         await chat_event.finish("你想和梦美聊些什么？请输入内容啦！")
 
@@ -69,11 +73,11 @@ def get_claude_response(prompt: str):
     except Exception as e:
         return repr(e)
 
-def get_close_ai_response(prompt: str):
+def get_deepseek_response(prompt: str):
     try:
         client = OpenAI(
-            base_url='https://api.openai-proxy.org/v1',
-            api_key=os.getenv("CLAUDE_API_KEY")
+            base_url='https://api.deepseek.com/v1',
+            api_key=os.getenv("DEEPSEEK_API_KEY")
         )
 
         chat_completion = client.chat.completions.create(
@@ -85,6 +89,28 @@ def get_close_ai_response(prompt: str):
                 }
             ],
             model="deepseek-reasoner",
+        )
+        return chat_completion.choices[0].message.content
+    except Exception as e:
+        return repr(e)
+
+
+def get_close_ai_response(prompt: str):
+    try:
+        client = OpenAI(
+            base_url='https://yunwu.ai/v1',
+            api_key=os.getenv("CLAUDE_API_KEY")
+        )
+
+        chat_completion = client.chat.completions.create(
+            messages=[
+                {"role": "system",  "content": system_message},
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+            model="gpt-5-mini-2025-08-07",
         )
         return chat_completion.choices[0].message.content
     except Exception as e:

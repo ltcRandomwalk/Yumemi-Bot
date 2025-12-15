@@ -2515,5 +2515,90 @@
         "age": null,
         "presenter": null,
         "others": null
-    }
+    },
+    "美坂香里": {
+            "cha_name": "美坂香里",
+            "birthday": "3-1",
+            "game_name": "Kanon",
+            "img_path": ["命吹雪.webp"],
+            "cv": "",
+            "staff": null,
+            "tag": "",
+            "company_name": "Key、VISUAL ARTS",
+            "like": null,
+            "age": "164cm-48kg-83-55-81",
+            "presenter": null,
+            "others": null
+        },
+    "辻仓朱比华": {
+            "cha_name": "辻仓朱比华",
+            "birthday": null,
+            "game_name": "anemoi",
+            "img_path": [],
+            "cv": "",
+            "staff": null,
+            "tag": "",
+            "company_name": "Key、VISUAL ARTS",
+            "like": null,
+            "age": null,
+            "presenter": null,
+            "others": null
+        },
+        "总羽爱乃": {
+            "cha_name": "总羽爱乃",
+            "birthday": null,
+            "game_name": "anemoi",
+            "img_path": [],
+            "cv": "",
+            "staff": null,
+            "tag": "",
+            "company_name": "Key、VISUAL ARTS",
+            "like": null,
+            "age": null,
+            "presenter": null,
+            "others": null
+        },
+        "白渡小咏": {
+            "cha_name": "白渡小咏",
+            "birthday": null,
+            "game_name": "anemoi",
+            "img_path": [],
+            "cv": "",
+            "staff": null,
+            "tag": "",
+            "company_name": "Key、VISUAL ARTS",
+            "like": null,
+            "age": null,
+            "presenter": null,
+            "others": null
+        },
+        "速川六花": {
+            "cha_name": "速川六花",
+            "birthday": null,
+            "game_name": "anemoi",
+            "img_path": [],
+            "cv": "",
+            "staff": null,
+            "tag": "",
+            "company_name": "Key、VISUAL ARTS",
+            "like": null,
+            "age": null,
+            "presenter": null,
+            "others": null
+        },
+        "淡雪阳彩": {
+            "cha_name": "淡雪阳彩",
+            "birthday": null,
+            "game_name": "anemoi",
+            "img_path": [],
+            "cv": "",
+            "staff": null,
+            "tag": "",
+            "company_name": "Key、VISUAL ARTS",
+            "like": null,
+            "age": null,
+            "presenter": null,
+            "others": null
+        }
+        
 }

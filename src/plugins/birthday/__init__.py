@@ -79,6 +79,7 @@ def get_birthday_msg_list(character_list: List[str]) -> List[MessageSegment]:
 
 
 birthday_event = nonebot.on_command("birthday", aliases={"生日"}, priority=8, block=True)
+broadcast_event = nonebot.on_command("生日广播", aliases={"生日广播2"}, priority=8, block=True)
 
 @birthday_event.handle()
 async def birthday_event_handler(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg()):
@@ -144,7 +145,7 @@ async def send_birthday_by_name(matcher: Matcher, event: GroupMessageEvent, args
 
 async def daily_birthday_msg():
     bot = nonebot.get_bot()
-    group_list: List[int] = [943858715, 737574359, 496642207, 264271679, 1026440181, 961707929, 608533421]   # TODO: Get all groups and send birthday messages to those in the whitelist.
+    group_list: List[int] = [739177245, 943858715, 737574359, 496642207, 264271679, 1026440181, 961707929, 608533421, 762617891, 198894147, 485279600,102572884]   # TODO: Get all groups and send birthday messages to those in the whitelist.
     
     birthday_characters: List[str] = get_birthdays(config.birthday_file_path)
     
@@ -170,5 +171,37 @@ async def daily_birthday_msg():
         for msg in msg_list:
             await bot.call_api("send_group_msg", group_id=group_id, message=msg)
     
+    
+@broadcast_event.handle()
+async def broadcast_daily_birthday_msg(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg()):
+    if event.user_id != 295259537:
+        await broadcast_event.finish("Permission denied.")
+        return
+    bot = nonebot.get_bot()
+    group_list: List[int] = [739177245,943858715, 737574359, 496642207, 264271679, 1026440181, 961707929, 608533421, 762617891, 198894147, 485279600,102572884]   # TODO: Get all groups and send birthday messages to those in the whitelist.
+    
+    birthday_characters: List[str] = get_birthdays(config.birthday_file_path)
+    
+    msg_list = get_birthday_msg_list(birthday_characters)
+        
+    if not msg_list:
+        #msg_list.append(MessageSegment.text("今天没有人过生日哦！（该提醒仅为测试期间使用，测试完成后会删掉）\n"))
+        return
+    else:
+        msg_list.insert(0, MessageSegment.text("今天过生日的Key社角色如下，让我们祝他们生日快乐吧!\n"))
+    
+    for group_id in group_list:
+        birth_node =[]
+        #for character_msg in msg_list:
+        #    birth_node.append(
+        #            MessageSegment.node_custom(
+        #                user_id=os.getenv("QQ_NUMBER"),
+        #                nickname=os.getenv("QQ_ID"),
+        #                content=character_msg,
+        #            )
+        #        )
+        #    await bot.call_api("send_group_msg", group_id=group_id, message=birth_node)
+        for msg in msg_list:
+            await bot.call_api("send_group_msg", group_id=group_id, message=msg)
 
-scheduler.add_job(daily_birthday_msg, "cron", hour=0, minute=0, second=0, id='daily_birthday', timezone=pytz.timezone("Asia/Tokyo"))
+scheduler.add_job(daily_birthday_msg, "cron", hour=0, minute=0, second=0, id='daily_birthday', timezone=pytz.timezone("Asia/Shanghai"))
