@@ -110,7 +110,7 @@ def get_close_ai_response(prompt: str):
                     "content": prompt,
                 }
             ],
-            model="gpt-5-mini-2025-08-07",
+            model="gemini-3-flash-preview",
         )
         return chat_completion.choices[0].message.content
     except Exception as e:

@@ -113,7 +113,7 @@ def get_close_ai_response(prompt: str):
                     "content": prompt,
                 }
             ],
-            model="gpt-5-2025-08-07",
+            model="gemini-3-flash-preview",
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
@@ -167,7 +167,7 @@ async def daily_summary():
             if not msgs:
                 continue
             reponse = get_response("这是今天的群聊信息，请对它们进行总结:"+"\n".join(msgs))
-            msg = f"今日群聊内容总结如下(By GPT-5)：\n {reponse}"
+            msg = f"今日群聊内容总结如下(By Gemini-3-Flash)：\n {reponse}"
             await bot.call_api("send_group_msg", group_id=group, message=msg)
         except Exception as e:
             await bot.call_api("send_group_msg", group_id=group, message="进行每日总结时发生错误："+repr(e))
