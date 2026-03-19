@@ -1,2604 +1,2622 @@
 {
-    "雾岛圣": {
-        "game_name": "AIR",
-        "birthday": "1-3",
-        "aliases": [],
-        "img_path": [
-            "雾岛圣.jpg"
-        ],
-        "cv": "冬马由美",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "172cm 87/59/86",
-        "presenter": null,
-        "others": null
-    },
-    "桐生美也": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "1-5",
-        "aliases": [],
-        "img_path": [
-            "桐生美也.webp"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": "30G",
-        "company_name": "Key",
-        "like": "日本传统文化、弓道",
-        "age": "156cm",
-        "presenter": null,
-        "others": null
-    },
-    "泽渡真琴": {
-        "game_name": "Kanon",
-        "birthday": "1-6",
-        "aliases": [],
-        "img_path": [
-            "泽渡真琴.jpeg"
-        ],
-        "cv": "飯塚雅弓",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "白河结奈": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "1-6",
-        "aliases": [],
-        "img_path": [
-            "白河结奈.webp"
-        ],
-        "cv": "花守ゆみり",
-        "staff": null,
-        "tag": "30G",
-        "company_name": "Key",
-        "like": null,
-        "age": "164cm",
-        "presenter": null,
-        "others": null
-    },
-    "月宫亚由": {
-        "game_name": "Kanon",
-        "birthday": "1-7",
-        "aliases": ["亚由", "Ayu"],
-        "img_path": [
-            "月宫亚由.jpeg"
-        ],
-        "cv": "堀江由衣",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "直枝架夜": {
-        "game_name": "Kud Wafter",
-        "birthday": "1-12",
-        "aliases": [],
-        "img_path": [
-            "直枝架夜.jpeg"
-        ],
-        "cv": "若林直美",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "水濑莓": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "1-15",
-        "aliases": [],
-        "img_path": [
-            "水濑莓.webp"
-        ],
-        "cv": "爱美",
-        "staff": null,
-        "tag": "31B",
-        "company_name": "Key",
-        "like": "棒球、蔬菜棒",
-        "age": "172cm",
-        "presenter": null,
-        "others": null
-    },
-    "直枝理树": {
-        "game_name": "Little Busters!",
-        "birthday": "1-17",
-        "aliases": [],
-        "img_path": [
-            "直枝理树.jpeg"
-        ],
-        "cv": "民安ともえ",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "伊吹公子": {
-        "game_name": "CLANNAD",
-        "birthday": "1-18",
-        "aliases": [],
-        "img_path": [
-            "伊吹公子.jpeg"
-        ],
-        "cv": "皆口裕子",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "露娜Q": {
-        "game_name": "LUNARiA!",
-        "birthday": "1-23",
-        "aliases": [],
-        "img_path": [
-            "露娜Q.png"
-        ],
-        "cv": "田中美海",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "芙里提卡": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "1-26",
-        "aliases": [],
-        "img_path": [
-            "芙里提卡.webp"
-        ],
-        "cv": "小坂井祐莉絵",
-        "staff": null,
-        "tag": "31X",
-        "company_name": "Key",
-        "like": "数学",
-        "age": "131cm",
-        "presenter": null,
-        "others": null
-    },
-    "川澄舞": {
-        "game_name": "Kanon",
-        "birthday": "1-29",
-        "aliases": [],
-        "img_path": [
-            "川澄舞.jpeg"
-        ],
-        "cv": "田村ゆかり",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "美坂栞": {
-        "game_name": "Kanon",
-        "birthday": "2-1",
-        "aliases": [],
-        "img_path": [
-            "美坂栞.jpeg"
-        ],
-        "cv": "小西寛子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "野村美希": {
-        "game_name": "Summer Pockets",
-        "birthday": "2-2",
-        "aliases": [],
-        "img_path": [
-            "野村美希.png"
-        ],
-        "cv": "一宮朔",
-        "staff": "ふむゆん",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "佐月麻里": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "2-7",
-        "aliases": [],
-        "img_path": [
-            "佐月麻里.webp"
-        ],
-        "cv": "宫本侑芽",
-        "staff": null,
-        "tag": "31C",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "150cm",
-        "presenter": null,
-        "others": null
-    },
-    "三谷良一": {
-        "game_name": "Summer Pockets",
-        "birthday": "2-9",
-        "aliases": [],
-        "img_path": [
-            "三谷良一.png"
-        ],
-        "cv": "熊谷健太朗",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "175cm/65kg",
-        "presenter": null,
-        "others": null
-    },
-    "东城司": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "2-14",
-        "aliases": [],
-        "img_path": [
-            "东城司.webp"
-        ],
-        "cv": "天海由梨奈",
-        "staff": null,
-        "tag": "31A",
-        "company_name": "Key",
-        "like": null,
-        "age": "163cm",
-        "presenter": null,
-        "others": null
-    },
-    "春原阳平": {
-        "game_name": "CLANNAD",
-        "birthday": "2-17",
-        "aliases": [],
-        "img_path": [
-            "春原阳平.PNG"
-        ],
-        "cv": "阪口大助",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "千里朱音": {
-        "game_name": "Rewrite",
-        "birthday": "2-17",
-        "aliases": [],
-        "img_path": [
-            "千里朱音.png"
-        ],
-        "cv": "喜多村英梨",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "神崎阿黛尔海德": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "2-22",
-        "aliases": [],
-        "img_path": [
-            "神崎阿黛尔海德.webp"
-        ],
-        "cv": "稗田宁宁",
-        "staff": null,
-        "tag": "31C",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "160cm",
-        "presenter": null,
-        "others": null
-    },
-    "町村玲央奈": {
-        "game_name": "LOOPERS",
-        "birthday": "2-24",
-        "aliases": [],
-        "img_path": [
-            "町村玲央奈.png"
-        ],
-        "cv": "井泽诗织",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": "调戏昼田",
-        "age": "158cm",
-        "presenter": null,
-        "others": null
-    },
-    "玛丽亚": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "2-26",
-        "aliases": [],
-        "img_path": [
-            "玛丽亚.webp"
-        ],
-        "cv": "亚月优音",
-        "staff": null,
-        "tag": "31X",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "170cm",
-        "presenter": null,
-        "others": null
-    },
-    "命吹雪": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "3-4",
-        "aliases": [],
-        "img_path": [
-            "命吹雪.webp"
-        ],
-        "cv": "浅见春那",
-        "staff": null,
-        "tag": "31D",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "154cm",
-        "presenter": null,
-        "others": null
-    },
-    "西门贵明": {
-        "game_name": "LOOPERS",
-        "birthday": "3-5",
-        "aliases": [],
-        "img_path": [
-            "西门贵明.webp"
-        ],
-        "cv": "木村良平",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "181cm",
-        "presenter": null,
-        "others": null
-    },
-    "井上晶": {
-        "game_name": "Rewrite",
-        "birthday": "3-6",
-        "aliases": [],
-        "img_path": [
-            "井上晶.png"
-        ],
-        "cv": "渡边佳美",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "来谷唯湖": {
-        "game_name": "Little Busters!",
-        "birthday": "3-13",
-        "aliases": [],
-        "img_path": [
-            "来谷唯湖.png"
-        ],
-        "cv": "田中涼子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "柊木梢": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "3-18",
-        "aliases": [],
-        "img_path": [
-            "柊木梢.png"
-        ],
-        "cv": "小泽亚李",
-        "staff": null,
-        "tag": "31B",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "小笠原绯雨": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "3-21",
-        "aliases": [],
-        "img_path": [
-            "小笠原绯雨.webp"
-        ],
-        "cv": "岭内美海/樱井海亚/田中美海",
-        "staff": null,
-        "tag": "30G",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "138cm",
-        "presenter": null,
-        "others": null
-    },
-    "有月椎菜": {
-        "game_name": "Kud Wafter",
-        "birthday": "3-25",
-        "aliases": [],
-        "img_path": [
-            "有月椎菜.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "华村诗纪": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "3-25",
-        "aliases": [],
-        "img_path": [
-            "华村诗纪.png"
-        ],
-        "cv": "时泽香保里",
-        "staff": null,
-        "tag": "31F",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "172cm",
-        "presenter": null,
-        "others": null
-    },
-    "凤咲夜": {
-        "game_name": "Rewrite",
-        "birthday": "3-27",
-        "aliases": [],
-        "img_path": [],
-        "cv": "小西克幸",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "阿酱前辈": {
-        "game_name": "Little Busters! EX",
-        "birthday": "4-1",
-        "aliases": [],
-        "img_path": [
-            "阿酱前辈.jpeg"
-        ],
-        "cv": "平井理子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "18岁、160cm、 45kg、81-58-83cm",
-        "presenter": null,
-        "others": null
-    },
-    "丰厚弥生": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "4-1",
-        "aliases": [],
-        "img_path": [
-            "丰厚弥生.png"
-        ],
-        "cv": "白花恋香",
-        "staff": null,
-        "tag": "31C",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "121cm",
-        "presenter": null,
-        "others": null
-    },
-    "藤川美亚": {
-        "game_name": "LOOPERS",
-        "birthday": "4-2",
-        "aliases": [],
-        "img_path": [
-            "藤川美亚.png"
-        ],
-        "cv": "金子彩花",
-        "staff": "null",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "相乐美佐枝": {
-        "game_name": "CLANNAD",
-        "birthday": "4-3",
-        "aliases": [],
-        "img_path": [
-            "相乐美佐枝.jpeg"
-        ],
-        "cv": "ゆきのさつき",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "久岛鸥": {
-        "game_name": "Summer Pockets",
-        "birthday": "4-4",
-        "aliases": [],
-        "img_path": [
-            "久岛鸥.jpeg"
-        ],
-        "cv": "嶺内ともみ",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "神北小毬": {
-        "game_name": "Little Busters!",
-        "birthday": "4-5",
-        "aliases": [],
-        "img_path": [
-            "神北小毬.jpeg"
-        ],
-        "cv": "やなせなつみ",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "白虎": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "4-8",
-        "aliases": [],
-        "img_path": [
-            "白虎.png"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": "31B",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "柳美音": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "4-13",
-        "aliases": [],
-        "img_path": [
-            "柳美音.webp"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": "31F",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "170cm",
-        "presenter": null,
-        "others": null
-    },
-    "北川润": {
-        "game_name": "Kanon",
-        "birthday": "4-18",
-        "aliases": [],
-        "img_path": [],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "松岗绮罗路": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "4-26",
-        "aliases": [],
-        "img_path": [
-            "松岗绮罗路.webp"
-        ],
-        "cv": "小岛ゆい",
-        "staff": null,
-        "tag": "31F",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "150cm",
-        "presenter": null,
-        "others": null
-    },
-    "水织静久": {
-        "game_name": "Summer Pockets",
-        "birthday": "4-29",
-        "aliases": [],
-        "img_path": [
-            "水织静久.png"
-        ],
-        "cv": "小山さほみ",
-        "staff": "永山ゆうのん",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "宫泽谦吾": {
-        "game_name": "Little Busters!",
-        "birthday": "4-30",
-        "aliases": [],
-        "img_path": [
-            "宫泽谦吾.jpg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": "Little Busters",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "180cm/72kg",
-        "presenter": null,
-        "others": null
-    },
-    "冈崎直幸": {
-        "game_name": "CLANNAD",
-        "birthday": "5-1",
-        "aliases": [],
-        "img_path": [
-            "冈崎直幸.jpg"
-        ],
-        "cv": "中博史",
-        "staff": null,
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "170cm/60kg",
-        "presenter": null,
-        "others": null
-    },
-    "天王寺瑚太朗": {
-        "game_name": "Rewrite",
-        "birthday": "5-2",
-        "aliases": [],
-        "img_path": [
-            "天王寺瑚太朗.jpg"
-        ],
-        "cv": "森田成一",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "枣恭介": {
-        "game_name": "Little Busters!",
-        "birthday": "5-4",
-        "aliases": [],
-        "img_path": [
-            "枣恭介.jpg"
-        ],
-        "cv": "緑川光",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "仓田佐祐理": {
-        "game_name": "Kanon",
-        "birthday": "5-5",
-        "aliases": [],
-        "img_path": [
-            "仓田佐祐理.jpeg"
-        ],
-        "cv": "川上とも子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "夏洛特": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "5-7",
-        "aliases": [],
-        "img_path": [
-            "夏洛特.webp"
-        ],
-        "cv": "会泽纱弥",
-        "staff": null,
-        "tag": "31X",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "150cm",
-        "presenter": null,
-        "others": null
-    },
-    "利田美咲": {
-        "game_name": "LOOPERS",
-        "birthday": "5-8",
-        "aliases": [],
-        "img_path": [],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "友利奈绪": {
-        "game_name": "Charlotte",
-        "birthday": "5-11",
-        "aliases": [],
-        "img_path": [
-            "友利奈绪.jpeg"
-        ],
-        "cv": "佐仓绫音",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "室伏理沙": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "5-12",
-        "aliases": [],
-        "img_path": [
-            "室伏理沙.png"
-        ],
-        "cv": "中村樱",
-        "staff": null,
-        "tag": "31D",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "168cm",
-        "presenter": null,
-        "others": null
-    },
-    "一之濑琴美": {
-        "game_name": "CLANNAD",
-        "birthday": "5-13",
-        "aliases": [],
-        "img_path": [
-            "一之濑琴美.jpeg"
-        ],
-        "cv": "能登麻美子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "鹰原羽依里": {
-        "game_name": "Summer Pockets",
-        "birthday": "5-21",
-        "aliases": [],
-        "img_path": [
-            "鹰原羽依里.png"
-        ],
-        "cv": "千葉翔也",
-        "staff": "Na-Ga",
-        "tag": "翅膀受伤白候鸟\n忘记歌唱金丝雀\n双拳皆毁拳击手\n笨口拙舌男公关",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "17y、172cm",
-        "presenter": "七影、之翼",
-        "others": "嗯原版终章都没露脸的工具人……但是能给乒乓球拍回血，真厉害吧。（by 七影"
-    },
-    "石井色叶": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "5-26",
-        "aliases": [],
-        "img_path": [
-            "石井色叶.webp"
-        ],
-        "cv": "桑原由気",
-        "staff": null,
-        "tag": "31D",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "156cm",
-        "presenter": null,
-        "others": null
-    },
-    "雾岛让": {
-        "game_name": "LOOPERS",
-        "birthday": "6-6",
-        "aliases": [],
-        "img_path": [
-            "雾岛让.JPG"
-        ],
-        "cv": "江藤要介",
-        "staff": "望月けい",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "178cm",
-        "presenter": null,
-        "others": null
-    },
-    "二阶堂三乡": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "6-6",
-        "aliases": [],
-        "img_path": [
-            "二阶堂三乡.jpg"
-        ],
-        "cv": "奈波果林",
-        "staff": null,
-        "tag": "31D",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "163cm",
-        "presenter": null,
-        "others": null
-    },
-    "鸣濑白羽": {
-        "game_name": "Summer Pockets",
-        "birthday": "6-8",
-        "aliases": [],
-        "img_path": [
-            "鸣濑白羽.jpeg"
-        ],
-        "cv": "小原好美",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "春原芽衣": {
-        "game_name": "CLANNAD",
-        "birthday": "6-11",
-        "aliases": [],
-        "img_path": [
-            "春原芽衣.jpeg"
-        ],
-        "cv": "田村ゆかり",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "能美库特莉亚芙卡": {
-        "game_name": "Little Busters!",
-        "birthday": "6-12",
-        "aliases": [],
-        "img_path": [
-            "能美库特莉亚芙卡.jpeg"
-        ],
-        "cv": "若林直美",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "雾岛佳乃": {
-        "game_name": "AIR",
-        "birthday": "6-12",
-        "aliases": [],
-        "img_path": [
-            "雾岛佳乃.jpeg"
-        ],
-        "cv": "岡本麻見",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "156cm、B82/W53/H80",
-        "presenter": null,
-        "others": null
-    },
-    "志麻子": {
-        "game_name": "Rewrite",
-        "birthday": "6-13",
-        "aliases": [],
-        "img_path": [
-            "志麻子.jpeg"
-        ],
-        "cv": "渡邉佳美",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "115cm、B56/W44/H55",
-        "presenter": null,
-        "others": null
-    },
-    "中津静流": {
-        "game_name": "Rewrite",
-        "birthday": "6-18",
-        "aliases": [],
-        "img_path": [
-            "中津静流.png"
-        ],
-        "cv": "すずきけいこ",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "149cm、B75/W52/H73",
-        "presenter": null,
-        "others": null
-    },
-    "藏里见": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "6-18",
-        "aliases": [],
-        "img_path": [
-            "藏里见.webp"
-        ],
-        "cv": "井泽美香子",
-        "staff": null,
-        "tag": "30G",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "172cm",
-        "presenter": null,
-        "others": null
-    },
-    "茅森月歌": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "6-24",
-        "aliases": [],
-        "img_path": [
-            "茅森月歌.png"
-        ],
-        "cv": "楠木ともり/Vo：XAI",
-        "staff": null,
-        "tag": "31A",
-        "company_name": "Key",
-        "like": null,
-        "age": "159cm",
-        "presenter": null,
-        "others": null
-    },
-    "樱庭星罗": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "6-29",
-        "aliases": [],
-        "img_path": [
-            "樱庭星罗.webp"
-        ],
-        "cv": "田泽茉纯",
-        "staff": null,
-        "tag": "31C",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "171cm",
-        "presenter": null,
-        "others": null
-    },
-    "神山识": {
-        "game_name": "Summer Pockets REFLECTION BLUE",
-        "birthday": "7-4",
-        "aliases": [],
-        "img_path": [
-            "神山识.png"
-        ],
-        "cv": "ファイルーズあい",
-        "staff": "ふむゆん",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "14岁、144cm、B73/W54/H74",
-        "presenter": null,
-        "others": null
-    },
-    "苍井绘梨花": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "7-7",
-        "aliases": [],
-        "img_path": [
-            "苍井绘梨花.webp"
-        ],
-        "cv": "宫下早纪",
-        "staff": null,
-        "tag": "31B",
-        "company_name": "Key",
-        "like": null,
-        "age": "158cm",
-        "presenter": null,
-        "others": null
-    },
-    "朝仓可怜": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "7-11",
-        "aliases": [],
-        "img_path": [
-            "朝仓可怜.png"
-        ],
-        "cv": "芹泽优/Vo：铃木このみ",
-        "staff": null,
-        "tag": "31A",
-        "company_name": "Key",
-        "like": "垃圾食品、FPS游戏",
-        "age": "158cm",
-        "presenter": null,
-        "others": null
-    },
-    "西九条灯花": {
-        "game_name": "Rewrite",
-        "birthday": "7-12",
-        "aliases": [],
-        "img_path": [
-            "西九条灯花.jpeg"
-        ],
-        "cv": "田中涼子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "167cm、B88/W61/H87",
-        "presenter": null,
-        "others": null
-    },
-    "有月初": {
-        "game_name": "库特wafter",
-        "birthday": "7-16",
-        "aliases": [],
-        "img_path": [
-            "有月初.JPG"
-        ],
-        "cv": "由宇翼",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "159cm、44kg、B79/W56/H80",
-        "presenter": null,
-        "others": null
-    },
-    "伊吹风子": {
-        "game_name": "CLANNAD",
-        "birthday": "7-20",
-        "aliases": [],
-        "img_path": [
-            "伊吹风子.jpeg"
-        ],
-        "cv": "野中藍",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "150cm、41kg、B78/W54/H79",
-        "presenter": null,
-        "others": null
-    },
-    "古河秋生": {
-        "game_name": "CLANNAD",
-        "birthday": "7-20",
-        "aliases": [],
-        "img_path": [
-            "古河秋生.JPG"
-        ],
-        "cv": "置鮎龍太郎",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "175cm、68kg",
-        "presenter": null,
-        "others": null
-    },
-    "平良明": {
-        "game_name": "LOOPERS",
-        "birthday": "7-21",
-        "aliases": [],
-        "img_path": [],
-        "cv": "",
-        "staff": null,
-        "tag": "",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "",
-        "presenter": null,
-        "others": null
-    },
-    "天音巫呼": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "7-22",
-        "aliases": [],
-        "img_path": [
-            "天音巫呼.png"
-        ],
-        "cv": "宫崎珠子",
-        "staff": null,
-        "tag": "31C",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "129cm",
-        "presenter": null,
-        "others": null
-    },
-    "神尾观铃": {
-        "game_name": "AIR",
-        "birthday": "7-23",
-        "aliases": [],
-        "img_path": [
-            "神尾观铃.jpeg"
-        ],
-        "cv": "川上とも子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "159cm、46kg、B83/W55/H82",
-        "presenter": null,
-        "others": null
-    },
-    "神户小鸟": {
-        "game_name": "Rewrite",
-        "birthday": "7-26",
-        "aliases": [],
-        "img_path": [
-            "神户小鸟.jpeg"
-        ],
-        "cv": "斎藤千和",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "156cm、44kg、B83/W54/H83",
-        "presenter": null,
-        "others": null
-    },
-    "卡罗尔利帕": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "8-2",
-        "aliases": [],
-        "img_path": [
-            "卡罗尔利帕.webp"
-        ],
-        "cv": "八卷アンナ",
-        "staff": null,
-        "tag": "31X",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "164cm",
-        "presenter": null,
-        "others": null
-    },
-    "宫泽有纪宁": {
-        "game_name": "CLANNAD",
-        "birthday": "8-7",
-        "aliases": [],
-        "img_path": [
-            "宫泽有纪宁.jpeg"
-        ],
-        "cv": "榎本温子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "157cm、45kg",
-        "presenter": null,
-        "others": null
-    },
-    "夏目祈": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "8-15",
-        "aliases": [],
-        "img_path": [
-            "夏目祈.webp"
-        ],
-        "cv": "筑山苑佳",
-        "staff": null,
-        "tag": "31F",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "154cm",
-        "presenter": null,
-        "others": null
-    },
-    "西园美鱼": {
-        "game_name": "Little Busters!",
-        "birthday": "8-22",
-        "aliases": [],
-        "img_path": [
-            "西园美鱼.jpeg"
-        ],
-        "cv": "河原木志穂",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "153cm、41kg、B75/W55/H79",
-        "presenter": null,
-        "others": null
-    },
-    "凤千早": {
-        "game_name": "Rewrite",
-        "birthday": "8-24",
-        "aliases": [],
-        "img_path": [
-            "凤千早.jpeg"
-        ],
-        "cv": "篠宮沙弥",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "159cm、46kg、B82/W55/H84",
-        "presenter": null,
-        "others": null
-    },
-    "山胁邦伊瓦尔": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "8-25",
-        "aliases": [],
-        "img_path": [
-            "山胁邦伊瓦尔.webp"
-        ],
-        "cv": "千本木彩花",
-        "staff": null,
-        "tag": "31C",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "156cm",
-        "presenter": null,
-        "others": null
-    },
-    "幸村俊夫": {
-        "game_name": "CLANNAD",
-        "birthday": "8-27",
-        "aliases": [],
-        "img_path": [
-            "幸村俊夫.jpg"
-        ],
-        "cv": "青野武/多田野曜平",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "162cm、52kg",
-        "presenter": null,
-        "others": null
-    },
-    "伊座并杏子": {
-        "game_name": "成神之日",
-        "birthday": "8-29",
-        "aliases": [],
-        "img_path": [
-            "伊座并杏子.jpg"
-        ],
-        "cv": "石川由依",
-        "staff": "",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "17",
-        "presenter": null,
-        "others": null
-    },
-    "紬文德斯": {
-        "game_name": "Summer Pockets",
-        "birthday": "8-31",
-        "aliases": [],
-        "img_path": [
-            "紬文德斯.jpeg"
-        ],
-        "cv": "岩井映美里",
-        "staff": "永山ゆうのん",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": "趣味：ぬいぐるみ集め\n好物：わたあめ\n座右の銘：私は私を探しています",
-        "age": "16岁、152cm、38kg、B78/W56/H80",
-        "presenter": null,
-        "others": null
-    },
-    "加藤羽未": {
-        "game_name": "Summer Pockets",
-        "birthday": "9-1",
-        "aliases": [],
-        "img_path": [
-            "加藤羽未.jpeg"
-        ],
-        "cv": "田中あいみ",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "12岁、130cm、29kg、B/W/H：坡度很小/稍稍有点细/唰的一下",
-        "presenter": null,
-        "others": null
-    },
-    "枣铃": {
-        "game_name": "Little Busters!",
-        "birthday": "9-2",
-        "aliases": [],
-        "img_path": [
-            "枣铃.jpeg"
-        ],
-        "cv": "民安ともえ",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "153cm、43kg、B77/W54/H80",
-        "presenter": null,
-        "others": null
-    },
-    "水濑李": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "9-6",
-        "aliases": [],
-        "img_path": [
-            "水濑李.webp"
-        ],
-        "cv": "小路裕夕",
-        "staff": null,
-        "tag": "31B",
-        "company_name": "Key",
-        "like": null,
-        "age": "154cm",
-        "presenter": null,
-        "others": null
-    },
-    "藤林杏": {
-        "game_name": "CLANNAD",
-        "birthday": "9-9",
-        "aliases": [],
-        "img_path": [
-            "藤林杏.jpeg"
-        ],
-        "cv": "広橋涼",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "160cm、46kg、B82/W56/H82",
-        "presenter": null,
-        "others": null
-    },
-    "藤林椋": {
-        "game_name": "CLANNAD",
-        "birthday": "9-9",
-        "aliases": [],
-        "img_path": [
-            "藤林椋.jpeg"
-        ],
-        "cv": "神田朱未",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "159cm、47kg",
-        "presenter": null,
-        "others": null
-    },
-    "昼田贵理子": {
-        "game_name": "LOOPERS",
-        "birthday": "9-13",
-        "aliases": [],
-        "img_path": [
-            "昼田贵理子.png"
-        ],
-        "cv": "河野ひより",
-        "staff": "望月けい",
-        "tag": null,
-        "company_name": "Key",
-        "like": "喜欢的事情: 与Leona聊天、自拍",
-        "age": "159cm",
-        "presenter": null,
-        "others": null
-    },
-    "和泉由希": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "9-17",
-        "aliases": [],
-        "img_path": [
-            "和泉由希.webp"
-        ],
-        "cv": "前川凉子",
-        "staff": null,
-        "tag": "31A",
-        "company_name": "Key",
-        "like": "吐槽",
-        "age": "160cm",
-        "presenter": null,
-        "others": null
-    },
-    "空门苍": {
-        "game_name": "Summer Pockets",
-        "birthday": "9-20",
-        "aliases": [],
-        "img_path": [
-            "空门苍.jpeg"
-        ],
-        "cv": "高森奈津美",
-        "staff": "和泉つばす",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": "趣味：昼寝\n好物：かき氷\n座右の銘：果報は寝て待つ",
-        "age": "16岁、160cm、46kg、B85/W59/H86",
-        "presenter": null,
-        "others": null
-    },
-    "空门蓝": {
-        "game_name": "Summer Pockets",
-        "birthday": "9-20",
-        "aliases": [],
-        "img_path": [
-            "空门蓝.jpg"
-        ],
-        "cv": "高森奈津美",
-        "staff": "和泉つばす",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "16岁、B87/W58/H87",
-        "presenter": null,
-        "others": null
-    },
-    "水濑秋子": {
-        "game_name": "Kanon",
-        "birthday": "9-23",
-        "aliases": [],
-        "img_path": [
-            "水濑秋子.jpg"
-        ],
-        "cv": "皆口裕子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": "165cm、50kg、B86/W57/H83",
-        "presenter": null,
-        "others": null
-    },
-    "丸山奏多": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "10-1",
-        "aliases": [],
-        "img_path": [
-            "丸山奏多.webp"
-        ],
-        "cv": "河野ひより",
-        "staff": null,
-        "tag": "31F",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "139cm",
-        "presenter": null,
-        "others": null
-    },
-    "古河早苗": {
-        "game_name": "CLANNAD",
-        "birthday": "10-5",
-        "aliases": [],
-        "img_path": [
-            "古河早苗.jpg"
-        ],
-        "cv": "井上喜久子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "158cm、45kg",
-        "presenter": null,
-        "others": null
-    },
-    "艾琳雷顿明": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "10-7",
-        "aliases": [],
-        "img_path": [
-            "艾琳雷顿明.webp"
-        ],
-        "cv": "Marika",
-        "staff": null,
-        "tag": "31X",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "143cm",
-        "presenter": null,
-        "others": null
-    },
-    "加纳天善": {
-        "game_name": "Summer Pockets",
-        "birthday": "10-10",
-        "aliases": [],
-        "img_path": [
-            "加纳天善.png"
-        ],
-        "cv": "浜田洋平",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": "趣味：卓球\n好物：わかめ",
-        "age": "16岁、178cm、69kg",
-        "presenter": null,
-        "others": null
-    },
-    "二木佳奈多": {
-        "game_name": "Little Busters!",
-        "birthday": "10-13",
-        "aliases": [],
-        "img_path": [
-            "二木佳奈多.jpeg"
-        ],
-        "cv": "すずきけいこ",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "163 cm、47kg、B80/W57/H82",
-        "presenter": null,
-        "others": null
-    },
-    "三枝叶留佳": {
-        "game_name": "Little Busters!",
-        "birthday": "10-13",
-        "aliases": [],
-        "img_path": [
-            "三枝叶留佳.jpeg"
-        ],
-        "cv": null,
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "163cm、49kg、B81/W59/H82",
-        "presenter": null,
-        "others": null
-    },
-    "坂上智代": {
-        "game_name": "CLANNAD、智代After",
-        "birthday": "10-14",
-        "aliases": [],
-        "img_path": [
-            "坂上智代.jpeg"
-        ],
-        "cv": "桑島法子、田中涼子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "岬镜子": {
-        "game_name": "Summer Pockets",
-        "birthday": "10-18",
-        "aliases": [],
-        "img_path": [
-            "岬镜子.jpeg"
-        ],
-        "cv": "高本めぐみ",
-        "staff": "ふむゆん",
-        "tag": null,
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "朱鹭户沙耶": {
-        "game_name": "Little Busters! EX",
-        "birthday": "10-21",
-        "aliases": [],
-        "img_path": [
-            "朱鹭户沙耶.jpeg"
-        ],
-        "cv": "櫻井浩美",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "伊达朱里": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "10-21",
-        "aliases": [],
-        "img_path": [
-            "伊达朱里.webp"
-        ],
-        "cv": "大野柚布子",
-        "staff": null,
-        "tag": "31D",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "154cm",
-        "presenter": null,
-        "others": null
-    },
-    "逢川惠": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "10-28",
-        "aliases": [],
-        "img_path": [
-            "逢川惠.jpg"
-        ],
-        "cv": "伊波杏树",
-        "staff": null,
-        "tag": "31A",
-        "company_name": "Key",
-        "like": null,
-        "age": "159cm",
-        "presenter": null,
-        "others": null
-    },
-    "冈崎朋也": {
-        "game_name": "CLANNAD",
-        "birthday": "10-30",
-        "aliases": [],
-        "img_path": [
-            "冈崎朋也.jpg"
-        ],
-        "cv": "中村悠一",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "国见玉": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-1",
-        "aliases": [],
-        "img_path": [
-            "国见玉.webp",
-            "国见玉.png"
-        ],
-        "cv": "古贺葵",
-        "staff": null,
-        "tag": "31A",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "137cm",
-        "presenter": null,
-        "others": null
-    },
-    "瑞原蓝娜": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-2",
-        "aliases": [],
-        "img_path": [
-            "瑞原蓝娜.webp"
-        ],
-        "cv": "星谷美绪",
-        "staff": null,
-        "tag": "31D",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "141cm",
-        "presenter": null,
-        "others": null
-    },
-    "神尾晴子": {
-        "game_name": "AIR",
-        "birthday": "11-3",
-        "aliases": [],
-        "img_path": [
-            "神尾晴子.jpg"
-        ],
-        "cv": "久川绫",
-        "staff": null,
-        "tag": "",
-        "company_name": "Key、VISUAL ARTS",
-        "like": "喝酒",
-        "age": "168cm/49kg B:88/W:57/H:85 28岁",
-        "presenter": null,
-        "others": null
-    },
-    "冰室忧希": {
-        "game_name": "库特wafter",
-        "birthday": "11-3",
-        "aliases": [],
-        "img_path": [],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "井之原真人": {
-        "game_name": "Little Busters!",
-        "birthday": "11-6",
-        "aliases": [],
-        "img_path": [
-            "井之原真人.png"
-        ],
-        "cv": "神奈延年",
-        "staff": null,
-        "tag": "Little Busters",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "183cm/80kg",
-        "presenter": null,
-        "others": null
-    },
-    "吉野晴彦": {
-        "game_name": "Rewrite",
-        "birthday": "11-7",
-        "aliases": [],
-        "img_path": [
-            "吉野晴彦.png"
-        ],
-        "cv": "柳田淳一",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "樋口圣华": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-8",
-        "aliases": [],
-        "img_path": [
-            "樋口圣华.webp"
-        ],
-        "cv": "山根绮",
-        "staff": null,
-        "tag": "31B",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "151cm",
-        "presenter": null,
-        "others": null
-    },
-    "黑泽真希": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-22",
-        "aliases": [],
-        "img_path": [
-            "黑泽真希.webp"
-        ],
-        "cv": "黑濑ゆうこ",
-        "staff": null,
-        "tag": "31F",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "163cm",
-        "presenter": null,
-        "others": null
-    },
-    "大岛一千子": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-29",
-        "aliases": [],
-        "img_path": [
-            "大岛一千子.webp"
-        ],
-        "cv": "日向葵",
-        "staff": null,
-        "tag": "31E",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "160cm",
-        "presenter": null,
-        "others": null
-    },
-    "大岛二以奈": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-29",
-        "aliases": [],
-        "img_path": [
-            "大岛二以奈.png"
-        ],
-        "cv": "金子彩花",
-        "staff": null,
-        "tag": "31E",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "163cm",
-        "presenter": null,
-        "others": null
-    },
-    "大岛三野里": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-29",
-        "aliases": [],
-        "img_path": [
-            "大岛三野里.webp"
-        ],
-        "cv": "中岛由贵",
-        "staff": null,
-        "tag": "31E",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "158cm",
-        "presenter": null,
-        "others": null
-    },
-    "大岛四叶草": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-29",
-        "aliases": [],
-        "img_path": [
-            "大岛四叶草.jpg"
-        ],
-        "cv": "内山茉莉",
-        "staff": null,
-        "tag": "31E",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "139cm",
-        "presenter": null,
-        "others": null
-    },
-    "大岛五十铃": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-29",
-        "aliases": [],
-        "img_path": [
-            "大岛五十铃.png"
-        ],
-        "cv": "中野さいま",
-        "staff": null,
-        "tag": "31E",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "154cm",
-        "presenter": null,
-        "others": null
-    },
-    "大岛六宇亚": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "11-29",
-        "aliases": [],
-        "img_path": [
-            "大岛六宇亚.webp"
-        ],
-        "cv": "福嶋美里衣",
-        "staff": null,
-        "tag": "31E",
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "157cm",
-        "presenter": null,
-        "others": null
-    },
-    "月城最中": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "12-1",
-        "aliases": [],
-        "img_path": [
-            "月城最中.webp"
-        ],
-        "cv": "松本沙罗",
-        "staff": null,
-        "tag": "30G",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "170cm",
-        "presenter": null,
-        "others": null
-    },
-    "鸣濑小鸠": {
-        "game_name": "Summer Pockets",
-        "birthday": "12-2",
-        "aliases": [],
-        "img_path": [
-            "鸣濑小鸠.png"
-        ],
-        "cv": "白石稔",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "185cm/96kg",
-        "presenter": null,
-        "others": null
-    },
-    "笹濑川佐佐美": {
-        "game_name": "Little Busters! EX",
-        "birthday": "12-3",
-        "aliases": [],
-        "img_path": [
-            "笹濑川佐佐美.jpeg"
-        ],
-        "cv": "民安ともえ",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "芳野祐介": {
-        "game_name": "CLANNAD",
-        "birthday": "12-5",
-        "aliases": [],
-        "img_path": [
-            "芳野祐介.jpg"
-        ],
-        "cv": "绿川光",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "179cm/63kg",
-        "presenter": null,
-        "others": null
-    },
-    "天野美汐": {
-        "game_name": "Kanon",
-        "birthday": "12-6",
-        "aliases": [],
-        "img_path": [
-            "天野美汐.jpg"
-        ],
-        "cv": "坂本真绫",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": "159cm/44kg 80/53/79 16岁",
-        "presenter": null,
-        "others": null
-    },
-    "李映夏": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "12-14",
-        "aliases": [],
-        "img_path": [
-            "李映夏.png"
-        ],
-        "cv": "东乡しえり",
-        "staff": null,
-        "tag": "31X",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "158cm",
-        "presenter": null,
-        "others": null
-    },
-    "远野美凪": {
-        "game_name": "AIR",
-        "birthday": "12-22",
-        "aliases": [],
-        "img_path": [
-            "远野美凪.jpeg"
-        ],
-        "cv": "柚木涼香",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "水濑名雪": {
-        "game_name": "Kanon",
-        "birthday": "12-23",
-        "aliases": [],
-        "img_path": [
-            "水濑名雪.jpeg"
-        ],
-        "cv": "國府田マリ子",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "此花露西娅": {
-        "game_name": "Rewrite",
-        "birthday": "12-23",
-        "aliases": [],
-        "img_path": [
-            "此花露西娅.gif"
-        ],
-        "cv": "朝樹りさ",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "古河渚": {
-        "game_name": "CLANNAD",
-        "birthday": "12-24",
-        "aliases": [],
-        "img_path": [
-            "古河渚.jpeg"
-        ],
-        "cv": "中原麻衣",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "菅原千惠": {
-        "game_name": "Heaven Burns Red",
-        "birthday": "12-25",
-        "aliases": [],
-        "img_path": [
-            "菅原千惠.png"
-        ],
-        "cv": "根本京里",
-        "staff": null,
-        "tag": "30G",
-        "company_name": "VISUAL ARTS / Key",
-        "like": null,
-        "age": "152cm",
-        "presenter": null,
-        "others": null
-    },
-    "西森柚咲": {
-        "game_name": "Charlotte",
-        "birthday": "12-27",
-        "aliases": [],
-        "img_path": [
-            "西森柚咲.png"
-        ],
-        "cv": "内田真礼",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "ホリー": {
-        "game_name": "LOOPERS",
-        "birthday": "12-27",
-        "aliases": [],
-        "img_path": [],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "小满": {
-        "game_name": "AIR",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "小满.jpeg"
-        ],
-        "cv": "田村由香里",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key、VISUAL ARTS",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "神奈备命": {
-        "game_name": "AIR",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "神奈备命.jpg"
-        ],
-        "cv": "西村千奈美",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "冈崎汐": {
-        "game_name": "CLANNAD",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "冈崎汐.jpeg"
-        ],
-        "cv": "兴梠里美",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "篝": {
-        "game_name": "Rewrite",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "篝.jpeg"
-        ],
-        "cv": "朝樹りさ",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "亚斯茗": {
-        "game_name": "Rewrite",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "亚斯茗.jpeg"
-        ],
-        "cv": "朝樹りさ",
-        "staff": "樋上いたる",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "仲村由理": {
-        "game_name": "Angel Beats!",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "仲村由理.jpeg"
-        ],
-        "cv": "樱井浩美",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "立华奏": {
-        "game_name": "Angel Beats!",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "立华奏.png"
-        ],
-        "cv": "花泽香菜",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "由依": {
-        "game_name": "Angel Beats!",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "由依.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "岩泽雅美": {
-        "game_name": "Angel Beats!",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "岩泽雅美.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "入江美雪": {
-        "game_name": "Angel Beats!",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "入江美雪.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "关根诗织": {
-        "game_name": "Angel Beats!",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "关根诗织.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "乙坂步未": {
-        "game_name": "Charlotte",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "乙坂步未.jpeg"
-        ],
-        "cv": "麻仓桃",
-        "staff": "Na-Ga",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "星野梦美": {
-        "game_name": "星之梦",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "星野梦美.jpeg"
-        ],
-        "cv": "麻仓桃",
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "诗音那": {
-        "game_name": "Harmonia",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "诗音那.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "提比": {
-        "game_name": "Harmonia",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "提比.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "菲莉娅": {
-        "game_name": "星之终途",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "菲莉娅.png"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "佐藤雏": {
-        "game_name": "成神之日",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "佐藤雏.png"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "灰樱": {
-        "game_name": "天籁人偶",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "灰樱.png"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "土豆": {
-        "game_name": "AIR",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "土豆.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "乌鸦": {
-        "game_name": "AIR",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "乌鸦.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "鲷鱼烧": {
-        "game_name": "Kanon",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "鲷鱼烧.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "海星": {
-        "game_name": "CLANNAD",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "海星.jpeg"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "牡丹": {
-        "game_name": "CLANNAD",
-        "birthday": "unknown",
-        "aliases": [],
-        "img_path": [
-            "牡丹.png"
-        ],
-        "cv": null,
-        "staff": null,
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "麻枝准": {
-        "game_name": "Key",
-        "birthday": "1-3",
-        "aliases": [],
-        "img_path": [
-            "麻枝准.png"
-        ],
-        "cv": "麻枝准",
-        "staff": "麻枝准",
-        "tag": null,
-        "company_name": "Key",
-        "like": null,
-        "age": null,
-        "presenter": null,
-        "others": null
-    },
-    "美坂香里": {
-            "cha_name": "美坂香里",
-            "birthday": "3-1",
-            "game_name": "Kanon",
-            "img_path": ["命吹雪.webp"],
-            "cv": "",
-            "staff": null,
-            "tag": "",
-            "company_name": "Key、VISUAL ARTS",
-            "like": null,
-            "age": "164cm-48kg-83-55-81",
-            "presenter": null,
-            "others": null
-        },
-    "辻仓朱比华": {
-            "cha_name": "辻仓朱比华",
-            "birthday": null,
-            "game_name": "anemoi",
-            "img_path": [],
-            "cv": "",
-            "staff": null,
-            "tag": "",
-            "company_name": "Key、VISUAL ARTS",
-            "like": null,
-            "age": null,
-            "presenter": null,
-            "others": null
-        },
-        "总羽爱乃": {
-            "cha_name": "总羽爱乃",
-            "birthday": null,
-            "game_name": "anemoi",
-            "img_path": [],
-            "cv": "",
-            "staff": null,
-            "tag": "",
-            "company_name": "Key、VISUAL ARTS",
-            "like": null,
-            "age": null,
-            "presenter": null,
-            "others": null
-        },
-        "白渡小咏": {
-            "cha_name": "白渡小咏",
-            "birthday": null,
-            "game_name": "anemoi",
-            "img_path": [],
-            "cv": "",
-            "staff": null,
-            "tag": "",
-            "company_name": "Key、VISUAL ARTS",
-            "like": null,
-            "age": null,
-            "presenter": null,
-            "others": null
-        },
-        "速川六花": {
-            "cha_name": "速川六花",
-            "birthday": null,
-            "game_name": "anemoi",
-            "img_path": [],
-            "cv": "",
-            "staff": null,
-            "tag": "",
-            "company_name": "Key、VISUAL ARTS",
-            "like": null,
-            "age": null,
-            "presenter": null,
-            "others": null
-        },
-        "淡雪阳彩": {
-            "cha_name": "淡雪阳彩",
-            "birthday": null,
-            "game_name": "anemoi",
-            "img_path": [],
-            "cv": "",
-            "staff": null,
-            "tag": "",
-            "company_name": "Key、VISUAL ARTS",
-            "like": null,
-            "age": null,
-            "presenter": null,
-            "others": null
-        }
-        
+  "仓田佐祐理": {
+    "aliases": [
+      "倉田 佐祐理",
+      "倉田佐祐理",
+      "Kurata Sayuri",
+      "KurataSayuri",
+      "啊哈哈",
+      "佐祐理",
+      "佐佑理"
+    ],
+    "game_name": "Kanon",
+    "birthday": "5-5",
+    "cid": "c2942",
+    "cv": "川上とも子",
+    "staff": "樋上いたる",
+    "age": "身高159cm；体重45kg；三围84/55/82cm"
+  },
+  "北川润": {
+    "aliases": [
+      "北川 潤",
+      "北川潤",
+      "Kitagawa Jun",
+      "KitagawaJun"
+    ],
+    "game_name": "Kanon",
+    "birthday": "4-18",
+    "cid": "c2944",
+    "age": "身高175cm；体重61kg"
+  },
+  "天野美汐": {
+    "aliases": [
+      "天野 美汐",
+      "天野美汐",
+      "Amano Mishio",
+      "AmanoMishio"
+    ],
+    "game_name": "Kanon",
+    "birthday": "12-6",
+    "cid": "c2940",
+    "cv": "坂本真绫",
+    "age": "身高159cm；体重44kg；三围80/53/79cm"
+  },
+  "川澄舞": {
+    "aliases": [
+      "川澄 舞",
+      "川澄舞",
+      "Kawasumi Mai",
+      "KawasumiMai",
+      "舞",
+      "mai"
+    ],
+    "game_name": "Kanon",
+    "birthday": "1-29",
+    "cid": "c2936",
+    "cv": "田村ゆかり",
+    "staff": "樋上いたる",
+    "age": "身高167cm；体重49kg；三围89/58/86cm"
+  },
+  "月宫亚由": {
+    "aliases": [
+      "月宮 あゆ",
+      "月宮あゆ",
+      "Tsukimiya Ayu",
+      "TsukimiyaAyu",
+      "亚由",
+      "Ayu",
+      "雅"
+    ],
+    "game_name": "Kanon",
+    "birthday": "1-7",
+    "cid": "c2927",
+    "cv": "堀江由衣",
+    "staff": "樋上いたる",
+    "age": "身高154cm；体重41kg；三围80/52/79cm"
+  },
+  "水濑名雪": {
+    "aliases": [
+      "水瀬 名雪",
+      "水瀬名雪",
+      "Minase Nayuki",
+      "MinaseNayuki",
+      "名雪",
+      "nayuki"
+    ],
+    "game_name": "Kanon",
+    "birthday": "12-23",
+    "cid": "c2928",
+    "cv": "國府田マリ子",
+    "staff": "樋上いたる",
+    "age": "身高164cm；体重47kg；三围83/57/82cm"
+  },
+  "水濑秋子": {
+    "aliases": [
+      "水瀬 秋子",
+      "水瀬秋子",
+      "Minase Akiko",
+      "MinaseAkiko",
+      "秋子",
+      "秋子阿姨"
+    ],
+    "game_name": "Kanon",
+    "birthday": "9-23",
+    "cid": "c2943",
+    "cv": "皆口裕子",
+    "staff": "樋上いたる",
+    "age": "身高165cm；体重50kg；三围86/57/83cm"
+  },
+  "泽渡真琴": {
+    "aliases": [
+      "沢渡 真琴",
+      "沢渡真琴",
+      "Sawatari Makoto",
+      "SawatariMakoto",
+      "真琴",
+      "makoto",
+      "小狐狸"
+    ],
+    "game_name": "Kanon",
+    "birthday": "1-6",
+    "cid": "c2930",
+    "cv": "飯塚雅弓",
+    "staff": "樋上いたる",
+    "age": "身高159cm；体重46kg；三围81/55/79cm"
+  },
+  "美坂栞": {
+    "aliases": [
+      "美坂 栞",
+      "美坂栞",
+      "Misaka Shiori",
+      "MisakaShiori",
+      "美坂汐里"
+    ],
+    "game_name": "Kanon",
+    "birthday": "2-1",
+    "cid": "c2932",
+    "cv": "小西寛子",
+    "staff": "樋上いたる",
+    "age": "身高157cm；体重43kg；三围79/53/80cm"
+  },
+  "美坂香里": {
+    "aliases": [
+      "美坂 香里",
+      "美坂香里",
+      "Misaka Kaori",
+      "MisakaKaori"
+    ],
+    "game_name": "Kanon",
+    "birthday": "3-1",
+    "cid": "c2941",
+    "age": "身高164cm；体重48kg；三围83/55/81cm"
+  },
+  "鲷鱼烧": {
+    "aliases": [
+      "たいやき"
+    ],
+    "game_name": "Kanon"
+  },
+  "乌鸦": {
+    "aliases": [
+      "そら",
+      "Sora",
+      "小空"
+    ],
+    "game_name": "AIR",
+    "cid": "c63800"
+  },
+  "土豆": {
+    "aliases": [
+      "ポテト",
+      "Potato",
+      "potato"
+    ],
+    "game_name": "AIR",
+    "cid": "c9998"
+  },
+  "小满": {
+    "aliases": [
+      "みちる",
+      "Michiru",
+      "michiru"
+    ],
+    "game_name": "AIR",
+    "cid": "c9994",
+    "cv": "田村由香里",
+    "staff": "樋上いたる",
+    "age": "身高145cm；体重39kg；三围72/49/70cm"
+  },
+  "神奈备命": {
+    "aliases": [
+      "神奈",
+      "Kanna",
+      "翼人"
+    ],
+    "game_name": "AIR",
+    "cid": "c17376",
+    "cv": "西村千奈美",
+    "staff": "樋上いたる"
+  },
+  "神尾晴子": {
+    "aliases": [
+      "神尾 晴子",
+      "神尾晴子",
+      "Kamio Haruko",
+      "KamioHaruko",
+      "晴子"
+    ],
+    "game_name": "AIR",
+    "birthday": "11-3",
+    "cid": "c9996",
+    "cv": "久川绫",
+    "age": "身高168cm；体重48kg；三围88/57/85cm",
+    "like": "喝酒"
+  },
+  "神尾观铃": {
+    "aliases": [
+      "神尾 観鈴",
+      "神尾観鈴",
+      "Kamio Misuzu",
+      "KamioMisuzu",
+      "观铃",
+      "misuzu"
+    ],
+    "game_name": "AIR",
+    "birthday": "7-23",
+    "cid": "c9995",
+    "cv": "川上とも子",
+    "staff": "樋上いたる",
+    "age": "身高159cm；体重46kg；三围83/55/82cm"
+  },
+  "远野美凪": {
+    "aliases": [
+      "遠野 美凪",
+      "遠野美凪",
+      "Toono Minagi",
+      "ToonoMinagi"
+    ],
+    "game_name": "AIR",
+    "birthday": "12-22",
+    "cid": "c9993",
+    "cv": "柚木涼香",
+    "staff": "樋上いたる",
+    "age": "身高169cm；体重48kg；三围85/58/84cm"
+  },
+  "雾岛佳乃": {
+    "aliases": [
+      "霧島 佳乃",
+      "霧島佳乃",
+      "Kirishima Kano",
+      "KirishimaKano",
+      "佳乃"
+    ],
+    "game_name": "AIR",
+    "birthday": "6-12",
+    "cid": "c9991",
+    "cv": "岡本麻見",
+    "staff": "樋上いたる",
+    "age": "身高156cm；体重45kg；三围82/53/80cm"
+  },
+  "雾岛圣": {
+    "aliases": [
+      "霧島 聖",
+      "霧島聖",
+      "Kirishima Hijiri",
+      "KirishimaHijiri"
+    ],
+    "game_name": "AIR",
+    "birthday": "1-3",
+    "cid": "c9992",
+    "cv": "冬马由美",
+    "staff": "樋上いたる",
+    "age": "身高172cm；体重50kg；三围87/59/86cm"
+  },
+  "一之濑琴美": {
+    "aliases": [
+      "一ノ瀬 ことみ",
+      "一ノ瀬ことみ",
+      "Ichinose Kotomi",
+      "IchinoseKotomi",
+      "琴美",
+      "kotomi"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "5-13",
+    "cid": "c190",
+    "cv": "能登麻美子",
+    "staff": "樋上いたる",
+    "age": "身高160cm；体重48kg；三围88/58/85cm"
+  },
+  "伊吹公子": {
+    "aliases": [
+      "伊吹 公子",
+      "伊吹公子",
+      "Ibuki Kouko",
+      "IbukiKouko"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "1-18",
+    "cid": "c15853",
+    "cv": "皆口裕子",
+    "age": "身高161cm；体重49kg"
+  },
+  "伊吹风子": {
+    "aliases": [
+      "伊吹 風子",
+      "伊吹風子",
+      "Ibuki Fuuko",
+      "IbukiFuuko",
+      "风子",
+      "fuuko",
+      "fuko"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "7-20",
+    "cid": "c501",
+    "cv": "野中藍",
+    "staff": "樋上いたる",
+    "age": "身高150cm；体重41kg；三围78/54/79cm"
+  },
+  "冈崎朋也": {
+    "aliases": [
+      "岡崎 朋也",
+      "岡崎朋也",
+      "Okazaki Tomoya",
+      "OkazakiTomoya",
+      "朋也",
+      "tomoya"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "10-30",
+    "cid": "c476",
+    "cv": "中村悠一",
+    "staff": "樋上いたる",
+    "age": "身高173cm；体重61kg"
+  },
+  "冈崎汐": {
+    "aliases": [
+      "岡崎 汐",
+      "岡崎汐",
+      "Okazaki Ushio",
+      "OkazakiUshio",
+      "汐",
+      "小汐",
+      "汐酱"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "2-1",
+    "cid": "c15867",
+    "cv": "兴梠里美",
+    "staff": "樋上いたる"
+  },
+  "冈崎直幸": {
+    "aliases": [
+      "岡崎 直幸",
+      "岡崎直幸",
+      "Okazaki Naoyuki",
+      "OkazakiNaoyuki",
+      "直幸"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "5-1",
+    "cid": "c15863",
+    "cv": "中博史",
+    "age": "身高170cm；体重60kg"
+  },
+  "古河早苗": {
+    "aliases": [
+      "古河 早苗",
+      "古河早苗",
+      "Furukawa Sanae",
+      "FurukawaSanae",
+      "早苗",
+      "早苗阿姨"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "10-5",
+    "cid": "c15855",
+    "cv": "井上喜久子",
+    "staff": "樋上いたる",
+    "age": "身高158cm；体重45kg"
+  },
+  "古河渚": {
+    "aliases": [
+      "古河 渚",
+      "古河渚",
+      "Furukawa Nagisa",
+      "FurukawaNagisa",
+      "渚",
+      "小渚",
+      "nagisa"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "12-24",
+    "cid": "c478",
+    "cv": "中原麻衣",
+    "staff": "樋上いたる",
+    "age": "身高155cm；体重43kg；三围80/55/81cm"
+  },
+  "古河秋生": {
+    "aliases": [
+      "古河 秋生",
+      "古河秋生",
+      "Furukawa Akio",
+      "FurukawaAkio",
+      "秋生",
+      "阿秋",
+      "大树"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "7-20",
+    "cid": "c15864",
+    "cv": "置鮎龍太郎",
+    "staff": "樋上いたる",
+    "age": "身高175cm；体重68kg"
+  },
+  "宫泽有纪宁": {
+    "aliases": [
+      "宮沢 有紀寧",
+      "宮沢有紀寧",
+      "Miyazawa Yukine",
+      "MiyazawaYukine",
+      "有纪宁",
+      "yukine"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "8-7",
+    "cid": "c15850",
+    "cv": "榎本温子",
+    "staff": "樋上いたる",
+    "age": "身高157cm；体重45kg"
+  },
+  "幸村俊夫": {
+    "aliases": [
+      "幸村 俊夫",
+      "幸村俊夫",
+      "Koumura Toshio",
+      "KoumuraToshio"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "8-27",
+    "cid": "c22633",
+    "cv": "青野武/多田野曜平",
+    "staff": "樋上いたる",
+    "age": "身高162cm；体重52kg"
+  },
+  "春原芽衣": {
+    "aliases": [
+      "春原 芽衣",
+      "春原芽衣",
+      "Sunohara Mei",
+      "SunoharaMei",
+      "芽衣"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "6-11",
+    "cid": "c15865",
+    "cv": "田村ゆかり",
+    "staff": "樋上いたる",
+    "age": "身高152cm；体重42kg"
+  },
+  "春原阳平": {
+    "aliases": [
+      "春原 陽平",
+      "春原陽平",
+      "Sunohara Youhei",
+      "SunoharaYouhei",
+      "春原",
+      "马桶盖子"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "2-17",
+    "cid": "c4941",
+    "cv": "阪口大助",
+    "staff": "樋上いたる",
+    "age": "身高167cm；体重55kg"
+  },
+  "海星": {
+    "aliases": [
+      "ひとで",
+      "ヒトデ"
+    ],
+    "game_name": "CLANNAD"
+  },
+  "牡丹": {
+    "aliases": [
+      "ボタン",
+      "Botan",
+      "botan",
+      "野猪"
+    ],
+    "game_name": "CLANNAD",
+    "cid": "c33899"
+  },
+  "相乐美佐枝": {
+    "aliases": [
+      "相楽 美佐枝",
+      "相楽美佐枝",
+      "Sagara Misae",
+      "SagaraMisae",
+      "美佐枝"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "4-3",
+    "cid": "c15851",
+    "cv": "ゆきのさつき",
+    "staff": "樋上いたる",
+    "age": "身高166cm；体重51kg"
+  },
+  "芳野祐介": {
+    "aliases": [
+      "芳野 祐介",
+      "芳野祐介",
+      "Yoshino Yuusuke",
+      "YoshinoYuusuke"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "12-5",
+    "cid": "c15852",
+    "cv": "绿川光",
+    "age": "身高179cm；体重63kg"
+  },
+  "藤林杏": {
+    "aliases": [
+      "藤林 杏",
+      "藤林杏",
+      "Fujibayashi Kyou",
+      "FujibayashiKyou",
+      "杏",
+      "kyou"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "9-9",
+    "cid": "c537",
+    "cv": "広橋涼",
+    "staff": "樋上いたる",
+    "age": "身高160cm；体重46kg；三围82/56/82cm"
+  },
+  "藤林椋": {
+    "aliases": [
+      "藤林 椋",
+      "藤林椋",
+      "Fujibayashi Ryou",
+      "FujibayashiRyou",
+      "椋"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "9-9",
+    "cid": "c6089",
+    "cv": "神田朱未",
+    "staff": "樋上いたる",
+    "age": "身高159cm；体重47kg"
+  },
+  "坂上智代": {
+    "aliases": [
+      "坂上 智代",
+      "坂上智代",
+      "Sakagami Tomoyo",
+      "SakagamiTomoyo",
+      "智代",
+      "tomoyo",
+      "大炮",
+      "主炮大智"
+    ],
+    "game_name": "CLANNAD",
+    "birthday": "10-14",
+    "cid": "c488",
+    "cv": "桑島法子、田中涼子",
+    "staff": "樋上いたる",
+    "age": "身高161cm；体重47kg；三围86/57/82cm"
+  },
+  "星野梦美": {
+    "aliases": [
+      "ほしのゆめみ",
+      "Hoshino Yumemi",
+      "HoshinoYumemi",
+      "梦美",
+      "yumeimi"
+    ],
+    "game_name": "planetarian",
+    "cid": "c441",
+    "cv": "麻仓桃",
+    "age": "身高155cm"
+  },
+  "三枝叶留佳": {
+    "aliases": [
+      "三枝 葉留佳",
+      "三枝葉留佳",
+      "Saigusa Haruka",
+      "SaigusaHaruka",
+      "叶留佳",
+      "haruka",
+      "小叶子",
+      "泰国虾",
+      "三只泰国虾"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "10-13",
+    "cid": "c1864",
+    "staff": "樋上いたる",
+    "age": "身高163cm；体重49kg；三围81/59/82cm"
+  },
+  "二木佳奈多": {
+    "aliases": [
+      "二木 佳奈多",
+      "二木佳奈多",
+      "Futaki Kanata",
+      "FutakiKanata",
+      "佳奈多",
+      "kanata"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "10-13",
+    "cid": "c1868",
+    "cv": "すずきけいこ",
+    "staff": "樋上いたる",
+    "age": "身高163cm；体重47kg；三围80/57/82cm"
+  },
+  "井之原真人": {
+    "aliases": [
+      "井ノ原 真人",
+      "井ノ原真人",
+      "Inohara Masato",
+      "InoharaMasato",
+      "真人",
+      "肌肉",
+      "masato"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "11-6",
+    "cid": "c193",
+    "cv": "神奈延年",
+    "age": "身高183cm；体重80kg",
+    "tag": "Little Busters"
+  },
+  "宫泽谦吾": {
+    "aliases": [
+      "宮沢 謙吾",
+      "宮沢謙吾",
+      "Miyazawa Kengo",
+      "MiyazawaKengo",
+      "谦吾",
+      "kengo"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "4-30",
+    "cid": "c194",
+    "age": "身高180cm；体重72kg",
+    "tag": "Little Busters"
+  },
+  "来谷唯湖": {
+    "aliases": [
+      "来ヶ谷 唯湖",
+      "来ヶ谷唯湖",
+      "Kurugaya Yuiko",
+      "KurugayaYuiko",
+      "来谷",
+      "大姐头"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "3-13",
+    "cid": "c1874",
+    "cv": "田中涼子",
+    "staff": "樋上いたる",
+    "age": "身高170cm；体重55kg；三围90/60/89cm"
+  },
+  "枣恭介": {
+    "aliases": [
+      "棗 恭介",
+      "棗恭介",
+      "Natsume Kyousuke",
+      "NatsumeKyousuke",
+      "恭介",
+      "kyousuke"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "5-4",
+    "cid": "c201",
+    "cv": "緑川光",
+    "age": "身高174cm；体重60kg"
+  },
+  "枣铃": {
+    "aliases": [
+      "棗 鈴",
+      "棗鈴",
+      "Natsume Rin",
+      "NatsumeRin",
+      "铃",
+      "铃酱",
+      "rin",
+      "哈基铃",
+      "铃抄千"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "9-2",
+    "cid": "c1863",
+    "cv": "民安ともえ",
+    "staff": "Na-Ga",
+    "age": "身高153cm；体重43kg；三围77/54/80cm"
+  },
+  "直枝理树": {
+    "aliases": [
+      "直枝 理樹",
+      "直枝理樹",
+      "Naoe Riki",
+      "NaoeRiki",
+      "理树",
+      "理树子",
+      "naoe",
+      "riki"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "1-17",
+    "cid": "c192",
+    "cv": "民安ともえ",
+    "age": "身高166cm；体重54kg"
+  },
+  "神北小毬": {
+    "aliases": [
+      "神北 小毬",
+      "神北小毬",
+      "Kamikita Komari",
+      "KamikitaKomari",
+      "小毬",
+      "小球",
+      "神北小球",
+      "komari"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "4-5",
+    "cid": "c1865",
+    "cv": "やなせなつみ",
+    "staff": "樋上いたる",
+    "age": "身高159cm；体重45kg；三围83/57/84cm"
+  },
+  "能美·库特莉亚芙卡": {
+    "aliases": [
+      "能美 クドリャフカ",
+      "能美クドリャフカ",
+      "Noumi Kudryavka",
+      "NoumiKudryavka",
+      "库特",
+      "库特莉亚芙卡",
+      "能美",
+      "noumi",
+      "kud"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "6-12",
+    "cid": "c1867",
+    "cv": "若林直美",
+    "staff": "Na-Ga",
+    "age": "身高145cm；体重37kg；三围69/51/72cm"
+  },
+  "西园美鱼": {
+    "aliases": [
+      "西園 美魚",
+      "西園美魚",
+      "Nishizono Mio",
+      "NishizonoMio",
+      "美鱼",
+      "腐鱼"
+    ],
+    "game_name": "Little Busters!",
+    "birthday": "8-22",
+    "cid": "c1873",
+    "cv": "河原木志穂",
+    "staff": "Na-Ga",
+    "age": "身高153cm；体重41kg；三围75/55/79cm"
+  },
+  "朱鹭户沙耶": {
+    "aliases": [
+      "朱鷺戸 沙耶",
+      "朱鷺戸沙耶",
+      "Tokido Saya",
+      "TokidoSaya",
+      "沙耶",
+      "saya"
+    ],
+    "game_name": "Little Busters! EX",
+    "birthday": "10-21",
+    "cid": "c1875",
+    "cv": "櫻井浩美",
+    "staff": "Na-Ga",
+    "age": "身高156cm；体重44kg；三围83/55/82cm"
+  },
+  "笹濑川佐佐美": {
+    "aliases": [
+      "笹瀬川 佐々美",
+      "笹瀬川佐々美",
+      "Sasasegawa Sasami",
+      "SasasegawaSasami",
+      "佐佐美",
+      "sasami",
+      "sasasasasasami"
+    ],
+    "game_name": "Little Busters! EX",
+    "birthday": "12-3",
+    "cid": "c1871",
+    "cv": "民安ともえ",
+    "age": "身高154cm；体重43kg；三围78/54/81cm"
+  },
+  "阿酱前辈": {
+    "aliases": [
+      "天野 洙浬",
+      "天野洙浬",
+      "Amano Akari",
+      "AmanoAkari",
+      "阿酱",
+      "achan",
+      "a-chan"
+    ],
+    "game_name": "Little Busters! EX",
+    "birthday": "4-1",
+    "cid": "c4874",
+    "cv": "平井理子",
+    "staff": "樋上いたる",
+    "age": "年龄18；身高160cm；体重45kg；三围81/58/83cm"
+  },
+  "有月椎菜": {
+    "aliases": [
+      "有月 椎菜",
+      "有月椎菜",
+      "Arizuki Shiina",
+      "ArizukiShiina",
+      "椎菜"
+    ],
+    "game_name": "Kud Wafter",
+    "birthday": "3-25",
+    "cid": "c4857",
+    "age": "身高125cm；体重25kg"
+  },
+  "直枝架夜": {
+    "aliases": [
+      "直枝 架夜",
+      "直枝架夜",
+      "Naoe Kaya",
+      "NaoeKaya"
+    ],
+    "game_name": "Kud Wafter",
+    "birthday": "1-12",
+    "cid": "c148654",
+    "cv": "若林直美"
+  },
+  "冰室忧希": {
+    "aliases": [
+      "氷室 憂希",
+      "氷室憂希",
+      "Himuro Yuuki",
+      "HimuroYuuki",
+      "冰室尤希"
+    ],
+    "game_name": "Kud Wafter",
+    "birthday": "11-3",
+    "cid": "c4873",
+    "age": "身高165cm；体重45kg；三围89/58/84cm"
+  },
+  "有月初": {
+    "aliases": [
+      "有月 初",
+      "有月初",
+      "Arizuki Ui",
+      "ArizukiUi"
+    ],
+    "game_name": "Kud Wafter",
+    "birthday": "7-16",
+    "cid": "c4875",
+    "cv": "由宇翼",
+    "staff": "Na-Ga",
+    "age": "身高159cm；体重44kg；三围79/56/80cm"
+  },
+  "中津静流": {
+    "aliases": [
+      "中津 静流",
+      "中津静流",
+      "Nakatsu Shizuru",
+      "NakatsuShizuru",
+      "静流",
+      "shizuru",
+      "sizuru"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "6-18",
+    "cid": "c270",
+    "cv": "すずきけいこ",
+    "staff": "樋上いたる",
+    "age": "身高149cm；体重39kg；三围75/52/73cm"
+  },
+  "井上晶": {
+    "aliases": [
+      "井上 晶",
+      "井上晶",
+      "Inoue Akira",
+      "InoueAkira",
+      "文文",
+      "射命丸文",
+      "大新闻"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "3-6",
+    "cid": "c6292",
+    "cv": "渡边佳美",
+    "staff": "樋上いたる",
+    "age": "身高158cm；体重46kg；三围84/55/85cm"
+  },
+  "亚斯茗": {
+    "aliases": [
+      "ヤスミン",
+      "Jasmine",
+      "jasmine"
+    ],
+    "game_name": "Rewrite",
+    "cid": "c17428",
+    "cv": "朝樹りさ",
+    "staff": "樋上いたる"
+  },
+  "凤千早": {
+    "aliases": [
+      "鳳 ちはや",
+      "鳳ちはや",
+      "Ootori Chihaya",
+      "OotoriChihaya",
+      "大鸟",
+      "千早"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "8-24",
+    "cid": "c303",
+    "cv": "篠宮沙弥",
+    "staff": "樋上いたる",
+    "age": "身高159cm；体重46kg；三围82/55/84cm"
+  },
+  "凤咲夜": {
+    "aliases": [
+      "鳳 咲夜",
+      "鳳咲夜",
+      "Ootori Sakuya",
+      "OotoriSakuya",
+      "咲夜"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "3-27",
+    "cid": "c765",
+    "cv": "小西克幸",
+    "staff": "樋上いたる",
+    "age": "身高186cm；体重79kg；三围96/76/95cm"
+  },
+  "千里朱音": {
+    "aliases": [
+      "千里 朱音",
+      "千里朱音",
+      "Senri Akane",
+      "SenriAkane",
+      "朱音",
+      "会长"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "2-17",
+    "cid": "c272",
+    "cv": "喜多村英梨",
+    "staff": "樋上いたる",
+    "age": "身高160cm；体重47kg；三围86/57/85cm；罩杯D"
+  },
+  "吉野晴彦": {
+    "aliases": [
+      "吉野 晴彦",
+      "吉野晴彦",
+      "Yoshino Haruhiko",
+      "YoshinoHaruhiko",
+      "吉野",
+      "yoshino"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "11-7",
+    "cid": "c304",
+    "cv": "柳田淳一",
+    "staff": "樋上いたる",
+    "age": "身高179cm"
+  },
+  "天王寺瑚太朗": {
+    "aliases": [
+      "天王寺 瑚太朗",
+      "天王寺瑚太朗",
+      "Tennouji Kotarou",
+      "TennoujiKotarou",
+      "瑚太朗",
+      "瑚太郎",
+      "天王寺"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "5-2",
+    "cid": "c267",
+    "cv": "森田成一",
+    "staff": "樋上いたる",
+    "age": "年龄17；身高176cm；体重65kg；三围92/72/92cm"
+  },
+  "志麻子": {
+    "aliases": [
+      "しまこ",
+      "Shimako",
+      "shimako"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "6-13",
+    "cid": "c6290",
+    "cv": "渡邉佳美",
+    "staff": "樋上いたる",
+    "age": "身高115cm；体重22kg；三围56/44/55cm"
+  },
+  "此花露西娅": {
+    "aliases": [
+      "此花 ルチア",
+      "此花ルチア",
+      "Konohana Lucia",
+      "KonohanaLucia",
+      "露西娅",
+      "班长"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "12-23",
+    "cid": "c302",
+    "cv": "朝樹りさ",
+    "staff": "樋上いたる",
+    "age": "身高167cm；体重52kg；三围93/59/86cm"
+  },
+  "神户小鸟": {
+    "aliases": [
+      "神戸 小鳥",
+      "神戸小鳥",
+      "Kanbe Kotori",
+      "KanbeKotori",
+      "小鸟",
+      "kotori",
+      "小鸟小姐"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "7-26",
+    "cid": "c241",
+    "cv": "斎藤千和",
+    "staff": "樋上いたる",
+    "age": "身高156cm；体重44kg；三围83/54/83cm"
+  },
+  "篝": {
+    "aliases": [
+      "篝",
+      "Kagari",
+      "kagari"
+    ],
+    "game_name": "Rewrite",
+    "cid": "c5418",
+    "cv": "朝樹りさ",
+    "staff": "樋上いたる",
+    "age": "身高152cm；体重42kg；三围77/54/74cm"
+  },
+  "西九条灯花": {
+    "aliases": [
+      "西九条 灯花",
+      "西九条灯花",
+      "Nishikujou Touka",
+      "NishikujouTouka",
+      "西九条",
+      "西红绿灯花"
+    ],
+    "game_name": "Rewrite",
+    "birthday": "7-12",
+    "cid": "c774",
+    "cv": "田中涼子",
+    "staff": "樋上いたる",
+    "age": "身高167cm；体重54kg；三围88/61/87cm"
+  },
+  "仲村由理": {
+    "aliases": [
+      "仲村 ゆり",
+      "仲村ゆり",
+      "Nakamura Yuri",
+      "NakamuraYuri",
+      "由理",
+      "百合",
+      "仲村百合",
+      "yuri",
+      "游离子"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c16858",
+    "cv": "樱井浩美",
+    "age": "身高160cm"
+  },
+  "入江美雪": {
+    "aliases": [
+      "入江 みゆき",
+      "入江みゆき",
+      "Irie Miyuki",
+      "IrieMiyuki",
+      "美雪"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c25333"
+  },
+  "关根诗织": {
+    "aliases": [
+      "関根 しおり",
+      "関根しおり",
+      "Sekine Shiori",
+      "SekineShiori"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c25340"
+  },
+  "岩泽雅美": {
+    "aliases": [
+      "岩沢 雅美",
+      "岩沢雅美",
+      "Iwasawa Masami",
+      "IwasawaMasami"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c16284",
+    "age": "身高160cm"
+  },
+  "由依": {
+    "aliases": [
+      "ユイ",
+      "Yui",
+      "yui",
+      "唯"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c16286"
+  },
+  "立华奏": {
+    "aliases": [
+      "立華 かなで",
+      "立華かなで",
+      "Tachibana Kanade",
+      "TachibanaKanade",
+      "奏",
+      "天使",
+      "kanade",
+      "小奏"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c16859",
+    "cv": "花泽香菜",
+    "age": "身高150cm"
+  },
+  "乙坂步未": {
+    "game_name": "Charlotte",
+    "cv": "麻仓桃",
+    "staff": "Na-Ga"
+  },
+  "友利奈绪": {
+    "game_name": "Charlotte",
+    "birthday": "5-11",
+    "cv": "佐仓绫音",
+    "staff": "Na-Ga"
+  },
+  "西森柚咲": {
+    "game_name": "Charlotte",
+    "birthday": "12-27",
+    "cv": "内田真礼",
+    "staff": "Na-Ga"
+  },
+  "提比": {
+    "aliases": [
+      "ティピィ",
+      "Tipi",
+      "tipi",
+      "tibi"
+    ],
+    "game_name": "Harmonia",
+    "cid": "c39070"
+  },
+  "诗音那": {
+    "aliases": [
+      "Shiona",
+      "汐奈"
+    ],
+    "game_name": "Harmonia"
+  },
+  "三谷良一": {
+    "aliases": [
+      "三谷 良一",
+      "三谷良一",
+      "Mitani Ryouichi",
+      "MitaniRyouichi",
+      "良一"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "2-9",
+    "cid": "c68279",
+    "cv": "熊谷健太朗",
+    "age": "年龄16；身高175cm；体重65kg"
+  },
+  "久岛鸥": {
+    "aliases": [
+      "久島 鴎",
+      "久島鴎",
+      "Kushima Kamome",
+      "KushimaKamome",
+      "鸥"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "4-4",
+    "cid": "c55092",
+    "cv": "嶺内ともみ",
+    "staff": "Na-Ga",
+    "age": "年龄17；身高158cm；体重43kg；三围86/55/85cm"
+  },
+  "加纳天善": {
+    "aliases": [
+      "加納 天善",
+      "加納天善",
+      "Kanou Tenzen",
+      "KanouTenzen",
+      "天善"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "10-10",
+    "cid": "c68280",
+    "cv": "浜田洋平",
+    "staff": "Na-Ga",
+    "age": "年龄16；身高178cm；体重69kg",
+    "like": "趣味：卓球\n好物：わかめ"
+  },
+  "加藤羽未": {
+    "aliases": [
+      "加藤 うみ",
+      "加藤うみ",
+      "Katou Umi",
+      "KatouUmi",
+      "羽未",
+      "海己",
+      "umi",
+      "うみ",
+      "鹰原羽未",
+      "不是tama",
+      "非tama"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "9-1",
+    "cid": "c68283",
+    "cv": "田中あいみ",
+    "staff": "Na-Ga",
+    "age": "年龄12；身高130cm；体重29kg"
+  },
+  "岬镜子": {
+    "aliases": [
+      "岬 鏡子",
+      "岬鏡子",
+      "Misaki Kyouko",
+      "MisakiKyouko",
+      "镜子"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "10-18",
+    "cid": "c68284",
+    "cv": "高本めぐみ",
+    "staff": "ふむゆん",
+    "age": "身高162cm；体重50kg；三围82/60/86cm"
+  },
+  "水织静久": {
+    "aliases": [
+      "水織 静久",
+      "水織静久",
+      "Mizuori Shizuku",
+      "MizuoriShizuku",
+      "静久"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "4-29",
+    "cid": "c68282",
+    "cv": "小山さほみ",
+    "staff": "永山ゆうのん",
+    "age": "年龄18；身高164cm；体重54kg；三围98/64/88cm"
+  },
+  "空门苍": {
+    "aliases": [
+      "空門 蒼",
+      "空門蒼",
+      "Sorakado Ao",
+      "SorakadoAo",
+      "苍",
+      "色色",
+      "苍老师"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "9-20",
+    "cid": "c55093",
+    "cv": "高森奈津美",
+    "staff": "和泉つばす",
+    "age": "年龄16；身高160cm；体重46kg；三围85/59/86cm",
+    "like": "趣味：昼寝\n好物：かき氷\n座右の銘：果報は寝て待つ"
+  },
+  "空门蓝": {
+    "aliases": [
+      "空門 藍",
+      "空門藍",
+      "Sorakado Ai",
+      "SorakadoAi",
+      "蓝"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "9-20",
+    "cid": "c72286",
+    "cv": "高森奈津美",
+    "staff": "和泉つばす",
+    "age": "年龄16；三围87/58/87cm"
+  },
+  "紬文德斯": {
+    "aliases": [
+      "紬 ヴェンダース",
+      "紬ヴェンダース",
+      "Tsumugi Wenders",
+      "TsumugiWenders",
+      "紬",
+      "姆Q",
+      "姆q"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "8-31",
+    "cid": "c55094",
+    "cv": "岩井映美里",
+    "staff": "永山ゆうのん",
+    "age": "年龄16；身高152cm；体重38kg；三围78/56/80cm",
+    "like": "趣味：ぬいぐるみ集め\n好物：わたあめ\n座右の銘：私は私を探しています"
+  },
+  "野村美希": {
+    "aliases": [
+      "野村 美希",
+      "野村美希",
+      "Nomura Miki",
+      "NomuraMiki",
+      "美希"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "2-2",
+    "cid": "c68281",
+    "cv": "一宮朔",
+    "staff": "ふむゆん",
+    "age": "年龄16；身高148cm；体重38kg；三围80/55/80cm；罩杯F"
+  },
+  "鸣濑小鸠": {
+    "aliases": [
+      "鳴瀬 小鳩",
+      "鳴瀬小鳩",
+      "Naruse Kobato",
+      "NaruseKobato",
+      "小鸠",
+      "玄武"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "12-2",
+    "cid": "c68285",
+    "cv": "白石稔",
+    "age": "年龄77；身高185cm；体重96kg"
+  },
+  "鸣濑白羽": {
+    "aliases": [
+      "鳴瀬 しろは",
+      "鳴瀬しろは",
+      "Naruse Shiroha",
+      "NaruseShiroha",
+      "白羽",
+      "shiroha"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "6-8",
+    "cid": "c55091",
+    "cv": "小原好美",
+    "staff": "Na-Ga",
+    "age": "年龄17；身高155cm；体重39kg；三围81/56/83cm"
+  },
+  "鹰原羽依里": {
+    "aliases": [
+      "鷹原 羽依里",
+      "鷹原羽依里",
+      "Takahara Hairi",
+      "TakaharaHairi",
+      "羽依里",
+      "hairi",
+      "嗨梨"
+    ],
+    "game_name": "Summer Pockets",
+    "birthday": "5-21",
+    "cid": "c55090",
+    "cv": "千葉翔也",
+    "staff": "Na-Ga",
+    "age": "年龄17；身高172cm；体重60kg",
+    "tag": "翅膀受伤白候鸟\n忘记歌唱金丝雀\n双拳皆毁拳击手\n笨口拙舌男公关"
+  },
+  "神山识": {
+    "aliases": [
+      "神山 識",
+      "神山識",
+      "Kamiyama Shiki",
+      "KamiyamaShiki",
+      "识",
+      "shiki",
+      "墓碑吞噬者"
+    ],
+    "game_name": "Summer Pockets REFLECTION BLUE",
+    "birthday": "7-4",
+    "cid": "c87360",
+    "cv": "ファイルーズあい",
+    "staff": "ふむゆん",
+    "age": "年龄14；身高144cm；体重36kg；三围73/54/74cm"
+  },
+  "伊座并杏子": {
+    "aliases": [
+      "伊座並杏子",
+      "Isanami Kyoko",
+      "IsanamiKyoko",
+      "杏子"
+    ],
+    "game_name": "神様になった日",
+    "birthday": "8-29",
+    "cv": "石川由依",
+    "age": "17"
+  },
+  "佐藤雏": {
+    "aliases": [
+      "佐藤ひな",
+      "Sato Hina",
+      "SatoHina",
+      "雏",
+      "奥丁"
+    ],
+    "game_name": "神様になった日"
+  },
+  "灰樱": {
+    "aliases": [
+      "灰桜",
+      "Haizakura"
+    ],
+    "game_name": "prima doll",
+    "cid": "c94291",
+    "age": "身高138cm",
+    "tag": "黑猫亭"
+  },
+  "ホリー": {
+    "game_name": "LOOPERS"
+  },
+  "利田美咲": {
+    "aliases": [
+      "利田 美咲",
+      "利田美咲",
+      "Rita Misaki",
+      "RitaMisaki"
+    ],
+    "game_name": "LOOPERS",
+    "birthday": "5-8",
+    "cid": "c94404",
+    "age": "身高156cm"
+  },
+  "平良明": {
+    "aliases": [
+      "平良 明",
+      "平良明",
+      "Taira Akira",
+      "TairaAkira"
+    ],
+    "game_name": "LOOPERS",
+    "birthday": "7-21",
+    "cid": "c94400",
+    "age": "身高172cm"
+  },
+  "昼田贵理子": {
+    "aliases": [
+      "昼田 貴理子",
+      "昼田貴理子",
+      "Hiruda Kiriko",
+      "HirudaKiriko"
+    ],
+    "game_name": "LOOPERS",
+    "birthday": "9-13",
+    "cid": "c94399",
+    "cv": "河野ひより",
+    "staff": "望月けい",
+    "age": "身高159cm",
+    "like": "喜欢的事情: 与Leona聊天、自拍"
+  },
+  "町村玲央奈": {
+    "aliases": [
+      "町村 玲央奈",
+      "町村玲央奈",
+      "Machimura Reona",
+      "MachimuraReona"
+    ],
+    "game_name": "LOOPERS",
+    "birthday": "2-24",
+    "cid": "c94397",
+    "cv": "井泽诗织",
+    "age": "身高158cm",
+    "like": "调戏昼田"
+  },
+  "藤川美亚": {
+    "aliases": [
+      "藤川 みあ",
+      "藤川みあ",
+      "Fujikawa Mia",
+      "FujikawaMia",
+      "美亚",
+      "mia"
+    ],
+    "game_name": "LOOPERS",
+    "birthday": "4-2",
+    "cid": "c94398",
+    "cv": "金子彩花",
+    "staff": "null",
+    "age": "身高148cm"
+  },
+  "西门贵明": {
+    "aliases": [
+      "西門 貴明",
+      "西門貴明",
+      "Saimon Takaaki",
+      "SaimonTakaaki"
+    ],
+    "game_name": "LOOPERS",
+    "birthday": "3-5",
+    "cid": "c94401",
+    "cv": "木村良平",
+    "age": "身高181cm"
+  },
+  "雾岛让": {
+    "aliases": [
+      "霧島 譲",
+      "霧島譲",
+      "Kirishima Jou",
+      "KirishimaJou"
+    ],
+    "game_name": "LOOPERS",
+    "birthday": "6-6",
+    "cid": "c94402",
+    "cv": "江藤要介",
+    "staff": "望月けい",
+    "age": "身高178cm"
+  },
+  "露娜Q": {
+    "aliases": [
+      "露娜q",
+      "LUNAR-Q",
+      "天宮 希優",
+      "天宮希優",
+      "Amamiya Kiyu",
+      "AmamiyaKiyu",
+      "希优"
+    ],
+    "game_name": "LUNARiA",
+    "birthday": "1-23",
+    "cid": "c99953",
+    "cv": "田中美海",
+    "staff": "ふむゆん"
+  },
+  "菲莉娅": {
+    "aliases": [
+      "フィリア",
+      "Philia"
+    ],
+    "game_name": "終のステラ",
+    "cid": "c99957",
+    "cv": "指出毬亚",
+    "staff": "SWAV"
+  },
+  "一华百花": {
+    "aliases": [
+      "一華 百花",
+      "一華百花",
+      "Ichige Moka",
+      "IchigeMoka",
+      "百花"
+    ],
+    "game_name": "虹彩都市",
+    "cid": "c133840"
+  },
+  "总羽爱乃": {
+    "aliases": [
+      "総羽 愛乃",
+      "総羽愛乃",
+      "Fusaba Aino",
+      "FusabaAino",
+      "爱乃"
+    ],
+    "game_name": "anemoi",
+    "cid": "c133791",
+    "age": "身高145cm；体重39kg；三围73/51/73cm"
+  },
+  "淡雪阳彩": {
+    "aliases": [
+      "淡雪 陽彩",
+      "淡雪陽彩",
+      "Awayuki Hiiro",
+      "AwayukiHiiro",
+      "阳彩"
+    ],
+    "game_name": "anemoi",
+    "cid": "c133789",
+    "age": "身高167cm；体重56kg；三围90/60/88cm"
+  },
+  "白渡小咏": {
+    "aliases": [
+      "白渡 小詠",
+      "白渡小詠",
+      "Shirato Koyomi",
+      "ShiratoKoyomi",
+      "小咏"
+    ],
+    "game_name": "anemoi",
+    "cid": "c133788",
+    "age": "身高152cm；体重44kg；三围78/56/79cm"
+  },
+  "辻仓朱比华": {
+    "aliases": [
+      "辻倉 朱比華",
+      "辻倉朱比華",
+      "Tsujikura Spica",
+      "TsujikuraSpica",
+      "朱比华",
+      "朱比",
+      "铸币华"
+    ],
+    "game_name": "anemoi",
+    "cid": "c133787",
+    "age": "年龄16；身高148cm；体重40kg；三围74/52/75cm"
+  },
+  "速川六花": {
+    "aliases": [
+      "速川 六花",
+      "速川六花",
+      "Hayakawa Rikka",
+      "HayakawaRikka",
+      "六花"
+    ],
+    "game_name": "anemoi",
+    "cid": "c133790",
+    "age": "身高158cm；体重52kg；三围86/58/88cm"
+  },
+  "东城司": {
+    "aliases": [
+      "東城 つかさ",
+      "東城つかさ",
+      "Toujou Tsukasa",
+      "ToujouTsukasa",
+      "司",
+      "tsukasa"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "2-14",
+    "cv": "天海由梨奈",
+    "age": "163cm",
+    "tag": "31A"
+  },
+  "丰后弥生": {
+    "aliases": [
+      "豊後 弥生",
+      "豊後弥生",
+      "Bungo Yayoi",
+      "BungoYayoi",
+      "螃蟹"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "4-1",
+    "cv": "白花恋香",
+    "age": "121cm",
+    "tag": "31C"
+  },
+  "丸山奏多": {
+    "aliases": [
+      "丸山 奏多",
+      "丸山奏多",
+      "Maruyama Kanata",
+      "MaruyamaKanata",
+      "丸山",
+      "少爷"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "10-1",
+    "cv": "河野ひより",
+    "age": "139cm",
+    "tag": "31F"
+  },
+  "二阶堂三乡": {
+    "aliases": [
+      "二階堂 三郷",
+      "二階堂三郷",
+      "Nikaidou Misato",
+      "NikaidouMisato",
+      "三乡",
+      "棋圣",
+      "蜜雪冰城"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "6-6",
+    "cv": "奈波果林",
+    "age": "163cm",
+    "tag": "31D"
+  },
+  "伊达朱里": {
+    "aliases": [
+      "伊達 朱里",
+      "伊達朱里",
+      "Date Akari",
+      "DateAkari",
+      "波奇",
+      "网球妹"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "10-21",
+    "cv": "大野柚布子",
+    "age": "154cm",
+    "tag": "31D"
+  },
+  "佐月麻里": {
+    "aliases": [
+      "佐月 マリ",
+      "佐月マリ",
+      "Satsuki Mari",
+      "SatsukiMari",
+      "麻里",
+      "mari",
+      "店长"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "2-7",
+    "cv": "宫本侑芽",
+    "age": "150cm",
+    "tag": "31C"
+  },
+  "华村诗纪": {
+    "aliases": [
+      "華村 詩紀",
+      "華村詩紀",
+      "Hanamura Shiki",
+      "HanamuraShiki"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "3-25",
+    "cv": "时泽香保里",
+    "age": "172cm",
+    "tag": "31F"
+  },
+  "卡罗尔·利帕": {
+    "aliases": [
+      "キャロル・リーパー",
+      "Carole Reaper",
+      "CaroleReaper",
+      "卡罗尔",
+      "美队"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "8-2",
+    "cv": "八卷アンナ",
+    "age": "164cm",
+    "tag": "31X"
+  },
+  "命吹雪": {
+    "aliases": [
+      "命 吹雪",
+      "命吹雪",
+      "Mikoto Fubuki",
+      "MikotoFubuki",
+      "命"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "3-4",
+    "cv": "浅见春那",
+    "age": "154cm",
+    "tag": "31D"
+  },
+  "和泉由希": {
+    "aliases": [
+      "和泉 ユキ",
+      "和泉ユキ",
+      "Izumi Yuki",
+      "IzumiYuki",
+      "由希",
+      "yuki"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "9-17",
+    "cv": "前川凉子",
+    "age": "160cm",
+    "like": "吐槽",
+    "tag": "31A"
+  },
+  "国见玉": {
+    "aliases": [
+      "國見 タマ",
+      "國見タマ",
+      "Kunimi Tama",
+      "KunimiTama",
+      "小玉",
+      "tama",
+      "不是umi",
+      "非umi",
+      "侯国玉"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-1",
+    "cv": "古贺葵",
+    "age": "137cm",
+    "tag": "31A"
+  },
+  "夏洛": {
+    "aliases": [
+      "シャルロッタ・ スコポフスカヤ",
+      "シャルロッタ・スコポフスカヤ",
+      "Charlotta Skopovskaya",
+      "CharlottaSkopovskaya"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "5-7",
+    "cv": "会泽纱弥",
+    "age": "150cm",
+    "tag": "31X"
+  },
+  "夏目祈": {
+    "aliases": [
+      "夏目 祈",
+      "夏目祈",
+      "Natsume Inori",
+      "NatsumeInori",
+      "祈",
+      "祈祈"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "8-15",
+    "cv": "筑山苑佳",
+    "age": "154cm",
+    "tag": "31F"
+  },
+  "大岛一千子": {
+    "aliases": [
+      "大島 一千子",
+      "大島一千子",
+      "Ooshima Ichiko",
+      "OoshimaIchiko",
+      "一千子",
+      "大姐"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-29",
+    "cv": "日向葵",
+    "age": "160cm",
+    "tag": "31E"
+  },
+  "大岛三野里": {
+    "aliases": [
+      "大島 三野里",
+      "大島三野里",
+      "Ooshima Minori",
+      "OoshimaMinori",
+      "三野里"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-29",
+    "cv": "中岛由贵",
+    "age": "158cm",
+    "tag": "31E"
+  },
+  "大岛二以奈": {
+    "aliases": [
+      "大島 二以奈",
+      "大島二以奈",
+      "Ooshima Niina",
+      "OoshimaNiina",
+      "二以奈"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-29",
+    "cv": "金子彩花",
+    "age": "163cm",
+    "tag": "31E"
+  },
+  "大岛五十铃": {
+    "aliases": [
+      "大島 五十鈴",
+      "大島五十鈴",
+      "Ooshima Isuzu",
+      "OoshimaIsuzu",
+      "五十铃",
+      "500"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-29",
+    "cv": "中野さいま",
+    "age": "154cm",
+    "tag": "31E"
+  },
+  "大岛六宇亚": {
+    "aliases": [
+      "大島 六宇亜",
+      "大島六宇亜",
+      "Ooshima Muua",
+      "OoshimaMuua",
+      "六宇亚",
+      "六妹"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-29",
+    "cv": "福嶋美里衣",
+    "age": "157cm",
+    "tag": "31E"
+  },
+  "大岛四叶草": {
+    "aliases": [
+      "大島 四ツ葉",
+      "大島四ツ葉",
+      "Ooshima Yotsuha",
+      "OoshimaYotsuha",
+      "四叶草",
+      "四妹"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-29",
+    "cv": "内山茉莉",
+    "age": "139cm",
+    "tag": "31E"
+  },
+  "天音巫呼": {
+    "aliases": [
+      "天音 巫呼",
+      "天音巫呼",
+      "Tenne Miko",
+      "TenneMiko",
+      "天然"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "7-22",
+    "cv": "宫崎珠子",
+    "age": "129cm",
+    "tag": "31C"
+  },
+  "室伏理沙": {
+    "aliases": [
+      "室伏 理沙",
+      "室伏理沙",
+      "Murofushi Risa",
+      "MurofushiRisa",
+      "妈妈"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "5-12",
+    "cv": "中村樱",
+    "age": "168cm",
+    "tag": "31D"
+  },
+  "小笠原绯雨": {
+    "aliases": [
+      "小笠原 緋雨",
+      "小笠原緋雨",
+      "Ogasahara Hisame",
+      "OgasaharaHisame",
+      "绯雨",
+      "鲱鱼",
+      "天才剑士"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "3-21",
+    "cv": "岭内美海/樱井海亚/田中美海",
+    "age": "138cm",
+    "tag": "30G"
+  },
+  "山胁·冯·伊瓦尔": {
+    "aliases": [
+      "山脇・ボン・ イヴァール",
+      "山脇・ボン・イヴァール",
+      "Yamawaki Bon Ivar",
+      "YamawakiBonIvar",
+      "山胁",
+      "牛排"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "8-25",
+    "cv": "千本木彩花",
+    "age": "156cm",
+    "tag": "31C"
+  },
+  "月城最中": {
+    "aliases": [
+      "月城 最中",
+      "月城最中",
+      "Tsukishiro Monaka",
+      "TsukishiroMonaka",
+      "月城"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "12-1",
+    "cv": "松本沙罗",
+    "age": "170cm",
+    "tag": "30G"
+  },
+  "朝仓可怜": {
+    "aliases": [
+      "朝倉 可憐",
+      "朝倉可憐",
+      "Asakura Karen",
+      "AsakuraKaren",
+      "可怜",
+      "可怜怜",
+      "可怜酱",
+      "karen"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "7-11",
+    "cv": "芹泽优/Vo：铃木このみ",
+    "age": "158cm",
+    "like": "垃圾食品、FPS游戏",
+    "tag": "31A"
+  },
+  "李映夏": {
+    "aliases": [
+      "李映夏",
+      "Li Yingxia",
+      "LiYingxia",
+      "孔明"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "12-14",
+    "cv": "东乡しえり",
+    "age": "158cm",
+    "tag": "31X"
+  },
+  "松冈千吕瑠": {
+    "aliases": [
+      "松岡 チロル",
+      "松岡チロル",
+      "Matsuoka Chiroru",
+      "MatsuokaChiroru",
+      "松冈绮罗路"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "4-26",
+    "cv": "小岛ゆい",
+    "age": "150cm",
+    "tag": "31F"
+  },
+  "柊木梢": {
+    "aliases": [
+      "柊木 梢",
+      "柊木梢",
+      "Hiiragi Kozue",
+      "HiiragiKozue",
+      "梢",
+      "小梢"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "3-18",
+    "cv": "小泽亚李",
+    "tag": "31B"
+  },
+  "柳美音": {
+    "aliases": [
+      "柳 美音",
+      "柳美音",
+      "Yanagi Mion",
+      "YanagiMion",
+      "柳"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "4-13",
+    "age": "170cm",
+    "tag": "31F"
+  },
+  "桐生美也": {
+    "aliases": [
+      "桐生 美也",
+      "桐生美也",
+      "Kiryuu Miya",
+      "KiryuuMiya",
+      "美也"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "1-5",
+    "age": "156cm",
+    "like": "日本传统文化、弓道",
+    "tag": "30G"
+  },
+  "樋口圣华": {
+    "aliases": [
+      "樋口 聖華",
+      "樋口聖華",
+      "Higuchi Seika",
+      "HiguchiSeika",
+      "圣华"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-8",
+    "cv": "山根绮",
+    "age": "151cm",
+    "tag": "31B"
+  },
+  "樱庭星罗": {
+    "aliases": [
+      "桜庭 星羅",
+      "桜庭星羅",
+      "Sakuraba Seira",
+      "SakurabaSeira",
+      "星罗"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "6-29",
+    "cv": "田泽茉纯",
+    "age": "171cm",
+    "tag": "31C"
+  },
+  "水濑李": {
+    "aliases": [
+      "水瀬 すもも",
+      "水瀬すもも",
+      "Minase Sumomo",
+      "MinaseSumomo",
+      "sumomo"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "9-6",
+    "cv": "小路裕夕",
+    "age": "154cm",
+    "tag": "31B"
+  },
+  "水濑莓": {
+    "aliases": [
+      "水瀬 いちご",
+      "水瀬いちご",
+      "Minase Ichigo",
+      "MinaseIchigo"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "1-15",
+    "cv": "爱美",
+    "age": "172cm",
+    "like": "棒球、蔬菜棒",
+    "tag": "31B"
+  },
+  "玛丽亚·德·安洁利斯": {
+    "aliases": [
+      "マリア・デ・ アンジェリス",
+      "マリア・デ・アンジェリス",
+      "Maria de Angelis",
+      "MariadeAngelis",
+      "修女"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "2-26",
+    "cv": "亚月优音",
+    "age": "170cm",
+    "tag": "31X"
+  },
+  "瑞原蓝娜": {
+    "aliases": [
+      "瑞原 あいな",
+      "瑞原あいな",
+      "Mizuhara Aina",
+      "MizuharaAina",
+      "鱼鱼",
+      "鱼"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-2",
+    "cv": "星谷美绪",
+    "age": "141cm",
+    "tag": "31D"
+  },
+  "白河结奈": {
+    "aliases": [
+      "白河 ユイナ",
+      "白河ユイナ",
+      "Shirakawa Yuina",
+      "ShirakawaYuina",
+      "白河由依奈",
+      "由依奈"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "1-6",
+    "cv": "花守ゆみり",
+    "age": "164cm",
+    "tag": "30G"
+  },
+  "白虎": {
+    "aliases": [
+      "ビャッコ",
+      "Byakko"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "4-8",
+    "tag": "31B"
+  },
+  "石井色叶": {
+    "aliases": [
+      "石井 色葉",
+      "石井色葉",
+      "Ishii Iroha",
+      "IshiiIroha"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "5-26",
+    "cv": "桑原由気",
+    "age": "156cm",
+    "tag": "31D"
+  },
+  "神崎阿黛尔海德": {
+    "aliases": [
+      "神崎 アーデルハイド",
+      "神崎アーデルハイド",
+      "Kanzaki Adelheid",
+      "KanzakiAdelheid",
+      "神崎",
+      "忍者"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "2-22",
+    "cv": "稗田宁宁",
+    "age": "160cm",
+    "tag": "31C"
+  },
+  "艾琳·雷德梅茵": {
+    "aliases": [
+      "アイリーン・ レドメイン",
+      "アイリーン・レドメイン",
+      "Irene Redmayne",
+      "IreneRedmayne",
+      "侦探"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "10-7",
+    "cv": "Marika",
+    "age": "143cm",
+    "tag": "31X"
+  },
+  "芙里提卡·巴拉克里希兰": {
+    "aliases": [
+      "ヴリティカ・ バラクリシュナン",
+      "ヴリティカ・バラクリシュナン",
+      "Vritika Balakrishnan",
+      "VritikaBalakrishnan",
+      "印度妹"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "1-26",
+    "cv": "小坂井祐莉絵",
+    "age": "131cm",
+    "like": "数学",
+    "tag": "31X"
+  },
+  "苍井绘里香": {
+    "aliases": [
+      "蒼井 えりか",
+      "蒼井えりか",
+      "苍井绘梨花",
+      "Aoi Erika",
+      "AoiErika",
+      "苍井",
+      "aoi",
+      "葱花皮蛋"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "7-7",
+    "cv": "宫下早纪",
+    "age": "158cm",
+    "tag": "31B"
+  },
+  "茅森月歌": {
+    "aliases": [
+      "茅森 月歌",
+      "茅森月歌",
+      "Kayamori Ruka",
+      "KayamoriRuka",
+      "月歌",
+      "ruka",
+      "黄毛"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "6-24",
+    "cv": "楠木ともり/Vo：XAI",
+    "age": "159cm",
+    "tag": "31A"
+  },
+  "菅原千惠": {
+    "aliases": [
+      "菅原 千恵",
+      "菅原千恵",
+      "Sugawara Chie",
+      "SugawaraChie",
+      "洛丽塔"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "12-25",
+    "cv": "根本京里",
+    "age": "152cm",
+    "tag": "30G"
+  },
+  "藏里见": {
+    "aliases": [
+      "蔵 里見",
+      "蔵里見",
+      "Kura Satomi",
+      "KuraSatomi",
+      "稻香皮蛋"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "6-18",
+    "cv": "井泽美香子",
+    "age": "172cm",
+    "tag": "30G"
+  },
+  "逢川惠": {
+    "aliases": [
+      "逢川 めぐみ",
+      "逢川めぐみ",
+      "Aikawa Megumi",
+      "AikawaMegumi",
+      "惠",
+      "megumi",
+      "惠惠"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "10-28",
+    "cv": "伊波杏树",
+    "age": "159cm",
+    "tag": "31A"
+  },
+  "黑泽真希": {
+    "aliases": [
+      "黒沢 真希",
+      "黒沢真希",
+      "Kurosawa Maki",
+      "KurosawaMaki"
+    ],
+    "game_name": "Heaven Burns Red",
+    "birthday": "11-22",
+    "cv": "黑濑ゆうこ",
+    "age": "163cm",
+    "tag": "31F"
+  },
+  "麻枝准": {
+    "aliases": [
+      "前田纯",
+      "Maeda Jun",
+      "MaedaJun",
+      "麻子"
+    ],
+    "game_name": "Key",
+    "birthday": "1-3",
+    "cv": "麻枝准",
+    "staff": "麻枝准"
+  },
+  "鸦羽": {
+    "aliases": [
+      "鴉羽",
+      "Karasuba"
+    ],
+    "game_name": "prima doll",
+    "cid": "c94293",
+    "cv": "楠木ともり",
+    "staff": "藤ちょこ",
+    "age": "155cm",
+    "like": "紫发、紫瞳",
+    "tag": "黑猫亭"
+  },
+  "成神空": {
+    "aliases": [
+      "成神 空",
+      "成神空",
+      "なるかみ そら",
+      "なるかみそら",
+      "Narukami Sora",
+      "NarukamiSora"
+    ],
+    "game_name": "神様になった日",
+    "cv": "桑原由气"
+  },
+  "白柳弓": {
+    "aliases": [
+      "Shirayanagi"
+    ],
+    "game_name": "Charlotte",
+    "cv": "中原麻衣",
+    "age": "157cm"
+  },
+  "椎名": {
+    "aliases": [
+      "Shiina"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c25336",
+    "cv": "斋藤枫子"
+  },
+  "游佐": {
+    "aliases": [
+      "Yusa"
+    ],
+    "game_name": "Angel Beats!",
+    "cid": "c25338",
+    "cv": "牧野由依"
+  },
+  "七濑七海": {
+    "aliases": [
+      "七瀬 七海",
+      "七瀬七海",
+      "ななせ ななみ",
+      "ななせななみ",
+      "Nanase Nanami",
+      "NanaseNanami",
+      "七七"
+    ],
+    "game_name": "Heaven Burns Red",
+    "cv": "内田秀",
+    "age": "149cm",
+    "tag": "司令部"
+  },
+  "浅见真纪子": {
+    "aliases": [
+      "浅見真紀子",
+      "あさみ まきこ",
+      "あさみまきこ",
+      "Asami Makiko",
+      "AsamiMakiko",
+      "浅浅",
+      "阿浅"
+    ],
+    "game_name": "Heaven Burns Red",
+    "cv": "花井美春",
+    "staff": "yuugen",
+    "like": "喝酒",
+    "tag": "司令部"
+  },
+  "音无初音": {
+    "aliases": [
+      "Otonashi Hatsune",
+      "OtonashiHatsune",
+      "初音",
+      "初音未来"
+    ],
+    "game_name": "Angel Beats!",
+    "cv": "中原麻衣"
+  },
+  "远间凪": {
+    "aliases": [
+      "遠間ナギ",
+      "ナギ",
+      "凪",
+      "Tooma Nagi",
+      "ToomaNagi"
+    ],
+    "game_name": "prima doll",
+    "cid": "c123079",
+    "cv": "村瀬歩",
+    "staff": "Na-Ga",
+    "like": "人偶师，性别不明（bushi",
+    "tag": "黑猫亭"
+  },
+  "上月澪": {
+    "aliases": [
+      "上月 澪",
+      "上月澪",
+      "Kouzuki Mio",
+      "KouzukiMio"
+    ],
+    "game_name": "One",
+    "birthday": "6-4",
+    "cid": "c4763",
+    "cv": "高森 奈津美",
+    "age": "身高147cm,三围75/56/79"
+  },
+  "黛莉拉": {
+    "aliases": [
+      "デリラ",
+      "Delilah"
+    ],
+    "game_name": "終のステラ",
+    "cid": "c101515",
+    "cv": "花守由美里",
+    "staff": "SWAV"
+  },
+  "天泽郁未": {
+    "aliases": [
+      "天沢 郁未",
+      "天沢郁未",
+      "跑得快",
+      "Amasawa Ikumi",
+      "AmasawaIkumi"
+    ],
+    "game_name": "MOON",
+    "birthday": "1-13",
+    "cid": "c26649",
+    "cv": "笹島 かほる",
+    "age": "17岁"
+  },
+  "长森瑞佳": {
+    "aliases": [
+      "長森瑞佳",
+      "Nagamori Mizuka",
+      "NagamoriMizuka",
+      "哟哟星人"
+    ],
+    "game_name": "One",
+    "birthday": "9-26",
+    "cid": "c4760",
+    "cv": "猪口有佳",
+    "age": "身高159cm,三围83/57/84"
+  },
+  "里村茜": {
+    "aliases": [
+      "Satomura Akane",
+      "SatomuraAkane",
+      "里村 茜",
+      "里村茜",
+      "辫子精"
+    ],
+    "game_name": "One",
+    "birthday": "4-21",
+    "cid": "c4765",
+    "cv": "壹智村小真",
+    "age": "身高159cm,三围82/58/81"
+  },
+  "箒星": {
+    "aliases": [
+      "Houkiboshi",
+      "帚星"
+    ],
+    "game_name": "prima doll",
+    "cid": "c94424",
+    "cv": "中岛由贵",
+    "staff": "森倉円",
+    "age": "158cm",
+    "like": "“真”无口",
+    "tag": "黑猫亭"
+  },
+  "月下": {
+    "aliases": [
+      "Gekka"
+    ],
+    "game_name": "prima doll",
+    "cid": "c94292",
+    "cv": "富田美忧",
+    "staff": "原悠衣",
+    "age": "128cm",
+    "like": "无口，真萝莉",
+    "tag": "黑猫亭"
+  },
+  "蕾切尔": {
+    "aliases": [
+      "レーツェル",
+      "Retzel"
+    ],
+    "game_name": "prima doll",
+    "cid": "c146623",
+    "cv": "鬼頭明里",
+    "staff": "lack",
+    "age": "142cm",
+    "like": "腹黑",
+    "tag": "黑猫亭"
+  },
+  "柳也": {
+    "aliases": [
+      "Ryuuya"
+    ],
+    "game_name": "AIR",
+    "cid": "c21313",
+    "cv": "神奈延年",
+    "staff": "樋上いたる",
+    "like": "侍卫",
+    "tag": "翼人传承会"
+  },
+  "里叶": {
+    "aliases": [
+      "裏葉",
+      "Uraha"
+    ],
+    "game_name": "AIR",
+    "cid": "c21312",
+    "cv": "井上喜久子",
+    "staff": "樋上いたる",
+    "like": "腹黑，“啊拉啊拉嘛嘛”",
+    "tag": "翼人传承会"
+  },
+  "喵呜·喵呼": {
+    "aliases": [
+      "ミャウ·ミャーフ",
+      "伊莉雅",
+      "Mew Myaf",
+      "MewMyaf",
+      "喵呜",
+      "イリヤ·ロジェストヴェンスカヤ",
+      "イリヤ"
+    ],
+    "game_name": "LUNARiA",
+    "cid": "c99955",
+    "cv": "八卷安奈",
+    "staff": "佐伯ソラ",
+    "like": "明明是我先来的"
+  },
+  "百百咲堇": {
+    "aliases": [
+      "百々咲 こん",
+      "百々咲こん",
+      "市谷百狐",
+      "市ヶ谷 百狐",
+      "市ヶ谷百狐",
+      "Gaya",
+      "Momosaki Kon",
+      "MomosakiKon",
+      "堇",
+      "百狐"
+    ],
+    "game_name": "LUNARiA",
+    "cid": "c99954",
+    "cv": "若井友希",
+    "staff": "佐伯ソラ",
+    "like": "兄弟你好香"
+  },
+  "狼代旅人": {
+    "aliases": [
+      "Kamishiro Tabito",
+      "KamishiroTabito",
+      "T-BIT"
+    ],
+    "game_name": "LUNARiA",
+    "cid": "c99952",
+    "cv": "石井孝英",
+    "staff": "ふむゆん"
+  }
 }
