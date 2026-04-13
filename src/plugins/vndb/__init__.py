@@ -10,14 +10,18 @@ import json
 import subprocess
 import traceback
 from nonebot_plugin_apscheduler import scheduler
-from typing import List, Dict, Tuple
+from typing import Dict, List, Tuple
 
 import pytz
 from datetime import datetime
 import os
 
 from .config import PluginConfig
-from src.utils.character_data import get_character_profile
+from src.utils.character_data import (
+    get_character_profile,
+    list_character_images,
+    normalize_lookup_text,
+)
 from nonebot.adapters.onebot.v11 import (
     GroupMessageEvent,
     GROUP,
@@ -47,6 +51,69 @@ def get_name_cid(name: str) -> Tuple[str, str]:
         return "", ""
     return profile.name, profile.cid
 
+
+def should_query_vndb(profile) -> bool:
+    if profile is None or not profile.cid:
+        return False
+    return not all([profile.birthday, profile.game_name, profile.age])
+
+
+def format_local_character_message(display_name: str, profile) -> MessageSegment:
+    msg = MessageSegment.text(f"{display_name}\n")
+    msg += MessageSegment.text(f"作品名：{profile.game_name or '未知'}\n")
+    if profile.birthday:
+        msg += MessageSegment.text(f"生日：{profile.birthday}\n")
+    if profile.cv:
+        msg += MessageSegment.text(f"CV：{profile.cv}\n")
+    if profile.staff:
+        msg += MessageSegment.text(f"画师：{profile.staff}\n")
+    if profile.age:
+        msg += MessageSegment.text(f"设定：{profile.age}\n")
+    if profile.tag:
+        msg += MessageSegment.text(f"所属：{profile.tag}\n")
+    if profile.like:
+        msg += MessageSegment.text(f"喜欢/吐槽：{profile.like}\n")
+    return msg
+
+
+def format_vndb_supplement(profile, data: dict) -> MessageSegment:
+    msg = MessageSegment.text("")
+    if data.get("original"):
+        msg += MessageSegment.text(f"原文名：{data['original']}\n")
+    if data.get("birthday") and not profile.birthday:
+        msg += MessageSegment.text(f"VNDB生日：{data['birthday'][0]}-{data['birthday'][1]}\n")
+    if data.get("vns") and not profile.game_name:
+        vns_dict = {}
+        for vn in data["vns"]:
+            vns_dict[vn["id"]] = vn["title"]
+        msg += MessageSegment.text(f"VNDB登场作品：{', '.join(vns_dict.values())}\n")
+
+    body_parts = []
+    if data.get("age") and not profile.age:
+        body_parts.append(f"年龄：{data['age']}")
+    if data.get("height") and not profile.age:
+        body_parts.append(f"身高：{data['height']}cm")
+    if data.get("weight") and not profile.age:
+        body_parts.append(f"体重：{data['weight']}kg")
+    if body_parts:
+        msg += MessageSegment.text(" / ".join(body_parts) + "\n")
+
+    measure_parts = []
+    if data.get("bust") and not profile.age:
+        measure_parts.append(f"胸围：{data['bust']}cm")
+    if data.get("waist") and not profile.age:
+        measure_parts.append(f"腰围：{data['waist']}cm")
+    if data.get("hips") and not profile.age:
+        measure_parts.append(f"臀围：{data['hips']}cm")
+    if data.get("cup") and not profile.age:
+        measure_parts.append(f"罩杯：{data['cup']}")
+    if measure_parts:
+        msg += MessageSegment.text(" / ".join(measure_parts) + "\n")
+
+    if str(msg):
+        msg += MessageSegment.text("以上补充数据来源于 VNDB")
+    return msg
+
 def get_vndb(cid: str):
     cmd = f'''
     curl https://api.vndb.org/kana/character --header 'Content-Type: application/json' --data '{{
@@ -75,46 +142,34 @@ async def _(bot: Bot, matcher: Matcher, event: GroupMessageEvent, args: Message=
         await query_by_name.finish("请输入查询的角色名！")
     else:
         try:
-            name, cid = get_name_cid(args)
-            if not cid:
+            profile = get_character_profile(args, config.character_json_path)
+            if profile is None:
                 await query_by_name.finish(MessageSegment.at(user_id)+f" 梦美没有查询到名为{args}的角色，换个名称试试吧！")
-            data = get_vndb(cid)
-            if not data:
-                await query_by_name.finish(MessageSegment.at(user_id)+f" 查询角色{args}数据时出错")
-            msg = MessageSegment.text(f"{name}\n")
-            msg += MessageSegment.text(f"{data['name']}")
-            if data["original"]:
-                msg += MessageSegment.text(f"/{data['original']}")
-            msg += "\n"
-            
-            if data["image"] and data["image"]["url"]:
-                #msg += MessageSegment.image(data["image"]["url"])
-                pass
-            if data["birthday"]:
-                msg += f"生日：{data['birthday'][0]}-{data['birthday'][1]}\n"
-                #msg += f"生日：{data['birthday']}\n"
-            if data["vns"]:
-                vns = data["vns"]
-                vns_dict = dict()
-                for vn in vns:
-                    vns_dict[vn["id"]] = vn["title"]
-                msg += f"登场作品：{', '.join(vns_dict.values())}\n"
-            if data["age"]:
-                msg += f"年龄：{data['age']}/ "
-            if data['height']:
-                msg += f"身高：{data['height']}cm/ "
-            if data["weight"]:
-                msg += f"体重：{data['weight']}kg/ "
-            msg += "\n"
-            if data["bust"]:
-                msg += f"胸围：{data['bust']}cm/ "
-            if data["waist"]:
-                msg += f"腰围：{data['waist']}cm/ "
-            if data["hips"]:
-                msg += f"臀围：{data['hips']}cm/ "
-            if data["cup"]:
-                msg += f"罩杯：{data['cup']}" 
-            msg += "\n以上数据来源于vndb"
+
+            name = profile.name
+            matched_name = profile.matched_name or name
+            if normalize_lookup_text(args) == normalize_lookup_text(name):
+                display_name = name
+            elif normalize_lookup_text(args) == normalize_lookup_text(matched_name):
+                display_name = f"{name}（{matched_name}）"
+            else:
+                display_name = f"{name}（{args}→{matched_name}）"
+            msg = format_local_character_message(display_name, profile)
+
+            image_list = list_character_images(name, config.image_base_folder)
+            if image_list:
+                msg += MessageSegment.image(image_list[0])
+
+            data = None
+            if should_query_vndb(profile):
+                data = get_vndb(profile.cid)
+
+            if data:
+                supplement = format_vndb_supplement(profile, data)
+                if str(supplement):
+                    msg += MessageSegment.text("\n")
+                    msg += supplement
+
             await query_by_name.send(msg)
         except FinishedException as f:
             return

@@ -1,4 +1,5 @@
 import json
+import re
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
@@ -11,6 +12,7 @@ from .paths import CHARACTER_DATA_PATH, IMAGE_RESOURCE_DIR
 class CharacterProfile:
     name: str
     raw: dict[str, Any]
+    matched_name: str | None = None
 
     @property
     def game_name(self) -> str:
@@ -63,6 +65,10 @@ def load_character_data(json_path: str | Path | None = None) -> dict[str, dict[s
     return data
 
 
+def normalize_lookup_text(text: str) -> str:
+    return re.sub(r"\s+", "", text).lower()
+
+
 def get_character_profile(
     name: str,
     json_path: str | Path | None = None,
@@ -70,13 +76,67 @@ def get_character_profile(
     data = load_character_data(json_path)
 
     if name in data:
-        return CharacterProfile(name=name, raw=data[name])
+        return CharacterProfile(name=name, raw=data[name], matched_name=name)
 
     lowered_name = name.lower()
     for character_name, info in data.items():
         for alias in info.get("aliases", []):
             if alias.lower() == lowered_name:
-                return CharacterProfile(name=character_name, raw=info)
+                return CharacterProfile(name=character_name, raw=info, matched_name=alias)
+
+    normalized_name = normalize_lookup_text(name)
+    if not normalized_name:
+        return None
+
+    exact_matches: list[tuple[int, int, str, str]] = []
+    prefix_matches: list[tuple[int, int, str, str]] = []
+    partial_matches: list[tuple[int, int, str, str]] = []
+
+    for character_name, info in data.items():
+        candidates = [character_name, *info.get("aliases", [])]
+        best_match: tuple[int, int, str, str] | None = None
+        for index, candidate in enumerate(candidates):
+            normalized_candidate = normalize_lookup_text(candidate)
+            if not normalized_candidate:
+                continue
+
+            match_score: tuple[int, int, str, str] | None = None
+            if normalized_candidate == normalized_name:
+                match_score = (index, len(normalized_candidate), character_name, candidate)
+                exact_matches.append(match_score)
+                best_match = match_score
+                break
+            if normalized_candidate.startswith(normalized_name):
+                match_score = (index, len(normalized_candidate), character_name, candidate)
+                if best_match is None or match_score < best_match:
+                    best_match = match_score
+            elif normalized_name in normalized_candidate:
+                match_score = (index, len(normalized_candidate), character_name, candidate)
+                if best_match is None or match_score < best_match:
+                    best_match = match_score
+
+        if best_match is None:
+            continue
+        if any(normalize_lookup_text(candidate) == normalized_name for candidate in candidates):
+            continue
+        normalized_character_name = normalize_lookup_text(character_name)
+        if normalized_character_name.startswith(normalized_name):
+            prefix_matches.append(best_match)
+        else:
+            partial_matches.append(best_match)
+
+    if exact_matches:
+        best_match = min(exact_matches)
+        best_name = best_match[2]
+        return CharacterProfile(name=best_name, raw=data[best_name], matched_name=best_match[3])
+    if prefix_matches:
+        best_match = min(prefix_matches)
+        best_name = best_match[2]
+        return CharacterProfile(name=best_name, raw=data[best_name], matched_name=best_match[3])
+    if partial_matches:
+        best_match = min(partial_matches)
+        best_name = best_match[2]
+        return CharacterProfile(name=best_name, raw=data[best_name], matched_name=best_match[3])
 
     return None
 
