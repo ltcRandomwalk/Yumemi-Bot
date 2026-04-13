@@ -17,6 +17,7 @@ from datetime import datetime
 import os
 
 from .config import PluginConfig
+from src.utils.character_data import get_character_profile
 from nonebot.adapters.onebot.v11 import (
     GroupMessageEvent,
     GROUP,
@@ -41,17 +42,10 @@ __plugin_meta__ = PluginMetadata(
 config = get_plugin_config(PluginConfig)
 
 def get_name_cid(name: str) -> Tuple[str, str]:
-    with open(config.character_json_path, 'r') as f:
-        data = json.load(f)
-        if name in data:
-            return name, data[name]["cid"]
-        for cha_name, information in data.items():
-            if not information["aliases"]:
-                continue
-            for alias in information["aliases"]:
-                if alias.lower() == name.lower():
-                    return cha_name, information["cid"]
-    return "", ""
+    profile = get_character_profile(name, config.character_json_path)
+    if profile is None:
+        return "", ""
+    return profile.name, profile.cid
 
 def get_vndb(cid: str):
     cmd = f'''

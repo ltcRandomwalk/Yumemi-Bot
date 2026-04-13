@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from pathlib import Path
+from src.utils.paths import CHARACTER_DATA_PATH
 
 class PluginConfig(BaseModel):
-    character_json_path: str = "/home/ubuntu/Yumemi-Bot/src/plugins/vndb/resources/vndb_character.json"
+    character_json_path: str = str(CHARACTER_DATA_PATH)

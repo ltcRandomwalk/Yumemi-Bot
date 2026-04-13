@@ -3,6 +3,7 @@ from datetime import datetime
 from .config import PluginConfig
 from typing import List
 import hashlib
+from nonebot import get_plugin_config
 
 
 class Prophecy():
@@ -20,22 +21,25 @@ class Prophecy():
         
     def getHeroine(self) -> str:
         random.seed(self.seed(f"heroine_{self.variant_seed}"))
+        config = get_plugin_config(PluginConfig)
         heroines: List[str]
-        with open("/home/ubuntu/Yumemi-Bot/src/plugins/KeyProphecy/resource/heroine.txt", 'r') as f:
+        with open(config.heroine_path, 'r', encoding='utf-8') as f:
             heroines = [ s.strip() for s in f.readlines() ]
         return random.choice(heroines)
     
     def getDosDonts(self) -> (List[str], List[str]):
         random.seed(self.seed(f"should_do_{self.variant_seed}"))
+        config = get_plugin_config(PluginConfig)
         dos: List[str]
-        with open("/home/ubuntu/Yumemi-Bot/src/plugins/KeyProphecy/resource/littlethings.txt", 'r') as f:
+        with open(config.littlethings_path, 'r', encoding='utf-8') as f:
             dos = [ s.strip() for s in f.readlines() ]
         samples = random.sample(dos, 6)
         return (samples[:3], samples[3:])
     
     def getLuckyThing(self) -> str:
         random.seed(self.seed(f"lucky_{self.variant_seed}"))
-        with open("/home/ubuntu/Yumemi-Bot/src/plugins/KeyProphecy/resource/luckythings.txt", 'r') as f:
+        config = get_plugin_config(PluginConfig)
+        with open(config.luckythings_path, 'r', encoding='utf-8') as f:
             lucky_things = [ s.strip() for s in f.readlines() ]
         return random.choice(lucky_things)
     

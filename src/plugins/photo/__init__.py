@@ -32,10 +32,21 @@ async def _(event: GroupMessageEvent, args: Message=CommandArg()):
     
     if not role_name:
         msg += MessageSegment.text("请输入角色名！\n")
-        photo_event.finish(msg)
+        await photo_event.finish(msg)
     
-    resource_folder = "/home/ubuntu/Yumemi-Bot/resources/images"
-    photo_path = os.path.join(resource_folder, f"{role_name}.jpg")
+    photo_folder = os.path.join(config.image_base_folder, role_name)
+    if not os.path.isdir(photo_folder):
+        await photo_event.finish(msg + MessageSegment.text("没有找到这个角色的图片。"))
+
+    image_files = sorted(
+        os.path.join(photo_folder, file_name)
+        for file_name in os.listdir(photo_folder)
+        if os.path.isfile(os.path.join(photo_folder, file_name))
+    )
+    if not image_files:
+        await photo_event.finish(msg + MessageSegment.text("这个角色的图片目录还是空的。"))
+
+    photo_path = image_files[0]
     msg += MessageSegment.image(photo_path)
     
     await photo_event.finish(msg)

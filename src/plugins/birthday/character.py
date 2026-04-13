@@ -1,7 +1,7 @@
-from .config import PluginConfig
-from typing import List, Dict
-import json
 import os
+from typing import List
+
+from src.utils.character_data import get_character_profile
 
 class Character():
     def __init__(self, name: str):
@@ -18,33 +18,22 @@ class Character():
         
     def init(self, json_path: str, image_base_path: str) -> bool:
         try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                data: Dict = json.load(f)
-            if self.cha_name not in data:   # try aliases
-                for cha_name, cha_data in data.items():
-                    if self.cha_name in cha_data["aliases"]:
-                        self.cha_name = cha_name
-                        break
+            profile = get_character_profile(self.cha_name, json_path)
         except Exception as e:
             return False
-        
-        if self.cha_name not in data:
-            return False
-        
-        cha_data: Dict = data[self.cha_name]
-        self.game_name = cha_data.get("game_name", "")
-        self.aliases = cha_data.get("aliases", [])
-        self.birthday = cha_data.get("birthday", "")
-        self.img_path = cha_data.get("img_path", [])
-        self.img_path = [ os.path.join(image_base_path, img) for img in self.img_path if os.path.isfile(os.path.join(image_base_path, img)) ]
-        self.cv = cha_data.get("cv", "")
-        self.staff = cha_data.get("staff", "")
-        self.age = cha_data.get("age", "")
-        self.like = cha_data.get("like", "")
-        self.tag = cha_data.get("tag", "")
-        return True
-        
-        
 
-        
-        
+        if profile is None:
+            return False
+
+        self.cha_name = profile.name
+        self.game_name = profile.game_name
+        self.aliases = profile.aliases
+        self.birthday = profile.birthday
+        self.img_path = profile.configured_image_paths
+        self.img_path = [ os.path.join(image_base_path, img) for img in self.img_path if os.path.isfile(os.path.join(image_base_path, img)) ]
+        self.cv = profile.cv
+        self.staff = profile.staff
+        self.age = profile.age
+        self.like = profile.like
+        self.tag = profile.tag
+        return True

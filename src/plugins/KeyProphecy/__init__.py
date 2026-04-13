@@ -1,8 +1,6 @@
 import nonebot
 from nonebot import get_plugin_config
 from nonebot.plugin import PluginMetadata
-from nonebot.adapters import Message
-from nonebot.params import CommandArg
 from typing import List
 import random
 from datetime import datetime
@@ -11,16 +9,13 @@ from nonebot.exception import FinishedException
 import traceback
 
 from .config import PluginConfig
+from src.utils.character_data import get_character_profile, list_character_images
 from nonebot.adapters.onebot.v11 import (
     GroupMessageEvent,
-    GROUP,
-    Message,
     MessageSegment
 )
 from .prophecy import Prophecy
-import json
 import os
-import random
 
 __plugin_meta__ = PluginMetadata(
     name="KeyProphecy",
@@ -49,15 +44,6 @@ def get_lucky_discription(lucky_point):
     else:
         return "头等奖！⭐️"
 
-def get_image_list(image_base_folder: str, cha_name: str) -> List[str]:
-    matching_files = []
-    image_base_folder = os.path.join(image_base_folder, cha_name)
-    for root, dirs, files in os.walk(image_base_folder):
-        for file in files:
-            matching_files.append(os.path.join(root, file))
-    
-    return matching_files
-
 prophecy_event = nonebot.on_command("今日运势", aliases={"抽签", "占卜", "key占卜"}, priority=8, block=True)
 
 @prophecy_event.handle()
@@ -72,19 +58,18 @@ async def _(event: GroupMessageEvent):
     
     image_path = ""
     game_name = "null"
+    img_list: List[str] = []
     try:
-        character_data = dict()
-        with open(config.character_json_path, 'r', encoding='utf-8') as f:
-            character_data = json.load(f)
-        
-        if heroine in character_data:
-            game_name = character_data[heroine]["game_name"]
-            img_list = get_image_list(config.image_base_folder, heroine)
+        profile = get_character_profile(heroine, config.character_json_path)
+        if profile is not None:
+            heroine = profile.name
+            game_name = profile.game_name
+            img_list = list_character_images(heroine, config.image_base_folder)
             today = datetime.now().strftime("%Y-%m-%d")
-            random.seed( int(hashlib.md5(f"{user_id}_{today}".encode()).hexdigest(),16)%(2**32))
-            image_path = random.choice(img_list)
+            random.seed(int(hashlib.md5(f"{user_id}_{today}".encode()).hexdigest(), 16) % (2**32))
+            if img_list:
+                image_path = random.choice(img_list)
             
-            #print(image_path)
             if not os.path.isfile(image_path):
                 image_path = ""
     except Exception as e:
@@ -110,6 +95,8 @@ async def _(event: GroupMessageEvent):
             error_info = traceback.format_exc()
             error_info = ""
             await prophecy_event.send(f"占卜时出了点小故障，再来一次……")
+            if not img_list:
+                break
             img_index = img_list.index(image_path)
             img_index = (img_index + 1) % len(img_list)
             image_path = img_list[img_index]

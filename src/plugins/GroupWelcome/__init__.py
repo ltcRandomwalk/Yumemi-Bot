@@ -3,6 +3,7 @@ import random
 from asyncio import sleep
 from nonebot.plugin import PluginMetadata
 import json
+from pathlib import Path
 from nonebot import get_plugin_config
 from nonebot import get_driver, on_request, on_notice, on_command
 from nonebot.adapters.onebot.v11 import Bot, GroupIncreaseNoticeEvent, \
@@ -25,7 +26,10 @@ def parseMessage(data):
     if data["type"] == "text":
         return [ MessageSegment.text("\n".join(data["content"])) ]
     elif data["type"] == "image":
-        return [  MessageSegment.image(data["content"]) ]
+        image_path = Path(data["content"])
+        if not image_path.is_absolute():
+            image_path = Path(config.welcome_json).resolve().parent / image_path
+        return [MessageSegment.image(str(image_path))]
     elif data["type"] == "node":
         msgs = []
         for msg in data["content"]:
