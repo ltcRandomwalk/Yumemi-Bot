@@ -141,6 +141,35 @@ def get_character_profile(
     return None
 
 
+def get_character_profile_from_text(
+    text: str,
+    json_path: str | Path | None = None,
+) -> CharacterProfile | None:
+    profile = get_character_profile(text, json_path)
+    if profile is not None:
+        return profile
+
+    normalized_text = normalize_lookup_text(text)
+    if not normalized_text:
+        return None
+
+    seen_substrings: set[str] = set()
+    min_length = 2
+    text_length = len(normalized_text)
+
+    for substring_length in range(text_length, min_length - 1, -1):
+        for start in range(0, text_length - substring_length + 1):
+            substring = normalized_text[start : start + substring_length]
+            if substring in seen_substrings:
+                continue
+            seen_substrings.add(substring)
+            profile = get_character_profile(substring, json_path)
+            if profile is not None:
+                return profile
+
+    return None
+
+
 @lru_cache(maxsize=512)
 def _list_character_images_cached(
     character_name: str,

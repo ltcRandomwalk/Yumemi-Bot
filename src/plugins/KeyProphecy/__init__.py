@@ -1,5 +1,5 @@
 import nonebot
-from nonebot import get_plugin_config
+from nonebot import get_driver, get_plugin_config
 from nonebot.plugin import PluginMetadata
 from typing import List
 import random
@@ -9,11 +9,17 @@ from nonebot.exception import FinishedException
 import traceback
 
 from .config import PluginConfig
-from src.utils.character_data import get_character_profile, list_character_images
+from src.utils.character_data import (
+    get_character_profile,
+    get_character_profile_from_text,
+    list_character_images,
+)
 from nonebot.adapters.onebot.v11 import (
     GroupMessageEvent,
+    Message,
     MessageSegment
 )
+from nonebot.params import CommandArg
 from .prophecy import Prophecy
 import os
 
@@ -25,6 +31,7 @@ __plugin_meta__ = PluginMetadata(
 )
 
 config = get_plugin_config(PluginConfig)
+superusers = {str(user_id) for user_id in get_driver().config.superusers}
 
 def get_lucky_discription(lucky_point):
     if lucky_point <= 10:
@@ -47,11 +54,15 @@ def get_lucky_discription(lucky_point):
 prophecy_event = nonebot.on_command("今日运势", aliases={"抽签", "占卜", "key占卜"}, priority=8, block=True)
 
 @prophecy_event.handle()
-async def _(event: GroupMessageEvent):
+async def _(event: GroupMessageEvent, args: Message = CommandArg()):
     user_id = str(event.get_user_id())
     prophecier = Prophecy(user_id)
     heroine = prophecier.getHeroine()
-    #heroine = "月宫亚由"
+    forced_name = args.extract_plain_text().strip()
+    if user_id in superusers and forced_name:
+        forced_profile = get_character_profile_from_text(forced_name, config.character_json_path)
+        if forced_profile is not None:
+            heroine = forced_profile.name
     lucky_point = prophecier.getLuckyPoint()
     dos, donts = prophecier.getDosDonts()
     lucky_thing = prophecier.getLuckyThing()
