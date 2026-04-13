@@ -6,6 +6,7 @@ from src.utils.character_data import get_character_profile
 class Character():
     def __init__(self, name: str):
         self.cha_name = name
+        self.matched_name: str
         self.game_name: str
         self.aliases: List[str]
         self.birthday: str  # mm-dd
@@ -26,6 +27,7 @@ class Character():
             return False
 
         self.cha_name = profile.name
+        self.matched_name = profile.matched_name or profile.name
         self.game_name = profile.game_name
         self.aliases = profile.aliases
         self.birthday = profile.birthday
