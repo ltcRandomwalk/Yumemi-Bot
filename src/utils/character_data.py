@@ -1,5 +1,6 @@
 import json
 import re
+import time
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
@@ -63,6 +64,40 @@ def load_character_data(json_path: str | Path | None = None) -> dict[str, dict[s
     if not isinstance(data, dict):
         raise ValueError("character_data.json 顶层必须是对象")
     return data
+
+
+@lru_cache(maxsize=4)
+def load_image_index(
+    image_base_folder: str | Path | None = None,
+) -> dict[str, tuple[str, ...]]:
+    base_dir = Path(image_base_folder) if image_base_folder else IMAGE_RESOURCE_DIR
+    index: dict[str, tuple[str, ...]] = {}
+    if not base_dir.is_dir():
+        return index
+
+    for character_dir in sorted(path for path in base_dir.iterdir() if path.is_dir()):
+        index[character_dir.name] = tuple(
+            sorted(str(path) for path in character_dir.iterdir() if path.is_file())
+        )
+    return index
+
+
+def warmup_character_resource_cache(
+    json_path: str | Path | None = None,
+    image_base_folder: str | Path | None = None,
+) -> dict[str, float]:
+    started_at = time.perf_counter()
+    character_data = load_character_data(json_path)
+    character_data_loaded_at = time.perf_counter()
+    image_index = load_image_index(image_base_folder)
+    image_index_loaded_at = time.perf_counter()
+    return {
+        "character_count": float(len(character_data)),
+        "image_character_count": float(len(image_index)),
+        "character_data_ms": round((character_data_loaded_at - started_at) * 1000, 3),
+        "image_index_ms": round((image_index_loaded_at - character_data_loaded_at) * 1000, 3),
+        "total_ms": round((image_index_loaded_at - started_at) * 1000, 3),
+    }
 
 
 def normalize_lookup_text(text: str) -> str:
@@ -175,12 +210,7 @@ def _list_character_images_cached(
     character_name: str,
     image_base_folder: str,
 ) -> tuple[str, ...]:
-    base_dir = Path(image_base_folder)
-    character_dir = base_dir / character_name
-    if not character_dir.is_dir():
-        return ()
-
-    return tuple(sorted(str(path) for path in character_dir.iterdir() if path.is_file()))
+    return load_image_index(image_base_folder).get(character_name, ())
 
 
 def list_character_images(
