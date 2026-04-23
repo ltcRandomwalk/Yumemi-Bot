@@ -8,7 +8,7 @@
 			},
 			{
 				"type": "image",
-				"content": "/home/ubuntu/Yumemi-Bot/src/plugins/GroupWelcome/data/KeyWelcome.jpg"
+				"content": "KeyWelcome.jpg"
 			}
 			
 		]
@@ -22,7 +22,7 @@
 			},
 			{
 				"type": "image",
-				"content": "/home/ubuntu/Yumemi-Bot/src/plugins/GroupWelcome/data/KeyWelcome.jpg"
+				"content": "KeyWelcome.jpg"
 			}
 			
 		]

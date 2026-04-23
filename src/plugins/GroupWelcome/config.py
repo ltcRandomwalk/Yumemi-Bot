@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from pathlib import Path
+from src.utils.paths import GROUP_WELCOME_DATA_DIR
 
 class PluginConfig(BaseModel):
-    welcome_json: str = "/home/ubuntu/Yumemi-Bot/src/plugins/GroupWelcome/data/data.json"
+    welcome_json: str = str(GROUP_WELCOME_DATA_DIR / "data.json")

@@ -43,20 +43,25 @@ help_event = nonebot.on_command("help", aliases={"帮助"}, priority=8, block=Tr
 @help_event.handle()
 async def birthday_event_handler(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg()):
     help_msg = """命令全集：
-    #help/#帮助：显示本条信息
-    #占卜：获取今日运势及Key社老婆（每人每天的占卜结果都是相同的，不要刷屏哦）
-    #查询 [角色名]：调用vndb API，查询Key社角色信息
-    #生日 [角色名]：查询角色的生日
+    #help / #帮助：显示本条信息
+    #占卜：获取今日运势及今日 Key 社老婆
+    #查询 [角色名]：优先查询本地角色资料，必要时补充 VNDB 信息；支持别名和模糊匹配
+    #生日：查询今天过生日的角色
+    #生日 [角色名]：查询指定角色的生日；支持别名和模糊匹配
     #生日 [月] [日]：查询某月某日过生日的角色
-    #r/roll/随机数 a：获得[1, a]间的随机整数
-    #r/roll/随机数 a b：获得[a, b]间的随机整数
-    
+    #r / #roll / #随机数 a：获得 [1, a] 间的随机整数
+    #r / #roll / #随机数 a b：获得 [a, b] 间的随机整数
+
+补充说明：
+    查询、生日等角色检索功能现已统一支持标准名、别名、大小写/空格归一和较自然的模糊匹配。
+    占卜结果每天固定，图片发送速度和稳定性也做过一轮优化；如果偶尔网络拥堵，稍后再试即可。
+
 其他功能：
     每日群聊总结：每天晚上，用大模型为当日的群聊内容进行总结
-    Key社生日推送：每日0点，推送当日过生日的Key社角色
-    世界计划/啤酒烧烤功能相关：本bot已接入haruki bot，可使用haruki bot的命令（不加前缀）。为避免造成打扰，请需要的群主或管理私信联系开发者开通此功能。使用文档：https://docs.haruki.seiunx.com/usage/
-    
-目前bot仍处于测试阶段，bug反馈/功能建议联系：羽未（qq: 295259537）
+    Key 社生日推送：每日 0 点，推送当日过生日的 Key 社角色
+    世界计划 / 啤酒烧烤相关：本 bot 已接入 haruki bot，可使用 haruki bot 的命令（不加前缀）。为避免打扰，请需要的群主或管理私信联系开发者开通此功能。使用文档：https://docs.haruki.seiunx.com/usage/
+
+目前 bot 仍处于测试阶段，bug 反馈 / 功能建议联系：羽未（qq: 295259537）
 
 开发者最近比较忙，暂时不处理新入群请求
     """

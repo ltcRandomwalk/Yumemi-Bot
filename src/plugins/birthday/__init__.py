@@ -14,6 +14,7 @@ from datetime import datetime
 import os
 
 from .config import PluginConfig
+from src.utils.character_data import list_character_images, normalize_lookup_text
 from nonebot.adapters.onebot.v11 import (
     GroupMessageEvent,
     GROUP,
@@ -39,21 +40,19 @@ __plugin_meta__ = PluginMetadata(
 config = get_plugin_config(PluginConfig)
 
 
-def get_image_list(image_base_folder:str, cha_name:str) -> List[str]:
-    matching_files = []
-    image_base_folder = "/home/ubuntu/Yumemi-Bot/resource/images"
-    image_base_folder = os.path.join(image_base_folder, cha_name)
-    for root, dirs, files in os.walk(image_base_folder):
-        for file in files:
-            matching_files.append(os.path.join(root, file))
-    
-    return matching_files
+def format_character_display_name(query_name: str, canonical_name: str, matched_name: str) -> str:
+    if normalize_lookup_text(query_name) == normalize_lookup_text(canonical_name):
+        return canonical_name
+    if normalize_lookup_text(query_name) == normalize_lookup_text(matched_name):
+        return f"{canonical_name}（{matched_name}）"
+    return f"{canonical_name}（{query_name}→{matched_name}）"
+
 
 def get_birthday_msg(character_str: str) -> MessageSegment:
     msg = MessageSegment.text(f"{character_str}\n")
     character = Character(character_str)
     if character.init(config.character_json_path, config.image_base_folder):
-        image_list = get_image_list("/home/ubuntu/Yumemi-Bot/resource/images", character_str)
+        image_list = list_character_images(character.cha_name, config.image_base_folder)
         if len(image_list) != 0:
             msg += MessageSegment.image(image_list[0])
         if character.game_name:
@@ -102,7 +101,7 @@ async def birthday_event_handler(matcher: Matcher, event: GroupMessageEvent, arg
         month, day = int(args[0]), int(args[1])
         
     try:    
-        birthday_list = get_birthdays(config.birthday_file_path, month, day)
+        birthday_list = get_birthdays(config.character_json_path, month, day)
     except ValueError as e:
         await birthday_event.finish("请输入合法的月和日！\n")
     
@@ -132,22 +131,24 @@ async def birthday_event_handler(matcher: Matcher, event: GroupMessageEvent, arg
 async def send_birthday_by_name(matcher: Matcher, event: GroupMessageEvent, args: Message=CommandArg()):
     msg = MessageSegment.at(event.user_id) + MessageSegment.text("\n")
     
-    character_name = matcher.get_arg("character_name")
-    character = Character(character_name)
+    query_name = str(matcher.get_arg("character_name"))
+    character = Character(query_name)
     if not character.init(config.character_json_path, config.image_base_folder):
-        await birthday_event.finish(msg + f"梦美没有查询到名为{character_name}的角色信息，换个名称试试吧！")
+        await birthday_event.finish(msg + f"梦美没有查询到名为{query_name}的角色信息，换个名称试试吧！")
+
+    display_name = format_character_display_name(query_name, character.cha_name, character.matched_name)
     
     if character.birthday == "" or character.birthday == "unknown":
-        await birthday_event.finish(msg + f"非常抱歉，梦美不知道{character_name}的生日")
+        await birthday_event.finish(msg + f"非常抱歉，梦美不知道{display_name}的生日")
     
     month, date = tuple(character.birthday.split('-'))
-    await birthday_event.finish(msg + f"{character_name}的生日是{month}月{date}日")
+    await birthday_event.finish(msg + f"{display_name}的生日是{month}月{date}日")
 
 async def daily_birthday_msg():
     bot = nonebot.get_bot()
     group_list: List[int] = [739177245, 943858715, 737574359, 496642207, 264271679, 1026440181, 961707929, 608533421, 762617891, 198894147, 485279600,102572884]   # TODO: Get all groups and send birthday messages to those in the whitelist.
     
-    birthday_characters: List[str] = get_birthdays(config.birthday_file_path)
+    birthday_characters: List[str] = get_birthdays(config.character_json_path)
     
     msg_list = get_birthday_msg_list(birthday_characters)
         
@@ -180,7 +181,7 @@ async def broadcast_daily_birthday_msg(matcher: Matcher, event: GroupMessageEven
     bot = nonebot.get_bot()
     group_list: List[int] = [739177245,943858715, 737574359, 496642207, 264271679, 1026440181, 961707929, 608533421, 762617891, 198894147, 485279600,102572884]   # TODO: Get all groups and send birthday messages to those in the whitelist.
     
-    birthday_characters: List[str] = get_birthdays(config.birthday_file_path)
+    birthday_characters: List[str] = get_birthdays(config.character_json_path)
     
     msg_list = get_birthday_msg_list(birthday_characters)
         
